@@ -1,0 +1,912 @@
+rank,institution,count,percentage,country,region
+1,Tsinghua University,174,3.249299719887955,China,China (Mainland)
+2,Zhejiang University,133,2.4836601307189543,China,China (Mainland)
+3,Shanghai Jiao Tong University,130,2.4276377217553686,China,China (Mainland)
+4,Peking University,114,2.1288515406162465,China,China (Mainland)
+5,UCAS,96,1.792717086834734,China,China (Mainland)
+6,USTC,95,1.7740429505135387,China,China (Mainland)
+7,Carnegie Mellon University,93,1.7366946778711485,USA,USA
+8,Stanford University,92,1.7180205415499532,USA,USA
+9,MIT,92,1.7180205415499532,USA,USA
+10,KAIST,86,1.6059757236227825,South Korea,South Korea
+11,NUS,82,1.531279178338002,Singapore,Singapore
+12,Fudan University,68,1.2698412698412698,China,China (Mainland)
+13,UIUC,63,1.1764705882352942,USA,USA
+14,HKUST,58,1.0830999066293183,Hong Kong,Hong Kong
+15,Nanjing University,58,1.0830999066293183,China,China (Mainland)
+16,University of Oxford,56,1.0457516339869282,UK,UK
+17,University of Hong Kong,52,0.9710550887021475,Hong Kong,Hong Kong
+18,UC Berkeley,51,0.9523809523809523,USA,USA
+19,Harbin Institute of Technology,50,0.9337068160597572,China,China (Mainland)
+20,Seoul National University,50,0.9337068160597572,South Korea,South Korea
+21,Microsoft,48,0.896358543417367,USA,USA
+22,Georgia Tech,46,0.8590102707749766,USA,USA
+23,Renmin University of China,44,0.8216619981325863,China,China (Mainland)
+24,NTU Singapore,44,0.8216619981325863,Singapore,Singapore
+25,ETH Zurich,41,0.765639589169001,Switzerland,Switzerland
+26,USC,41,0.765639589169001,USA,USA
+27,Alibaba,41,0.765639589169001,China,China (Mainland)
+28,University of Cambridge,39,0.7282913165266106,UK,UK
+29,McGill / U Montréal / Mila,38,0.7096171802054155,Canada,Canada
+30,NYU,38,0.7096171802054155,USA,USA
+31,UCLA,38,0.7096171802054155,USA,USA
+32,ByteDance,37,0.6909430438842203,China,China (Mainland)
+33,Meta,37,0.6909430438842203,USA,USA
+34,EPFL,36,0.6722689075630253,Switzerland,Switzerland
+35,HKUST (Guangzhou),36,0.6722689075630253,China,China (Mainland)
+36,CUHK,35,0.6535947712418301,Hong Kong,Hong Kong
+37,Harvard University,33,0.6162464985994398,USA,USA
+38,Technical University of Munich,32,0.5975723622782446,Germany,Germany
+39,Princeton University,32,0.5975723622782446,USA,USA
+40,Yonsei University,31,0.5788982259570495,South Korea,South Korea
+41,University of Pennsylvania,30,0.5602240896358543,USA,USA
+42,East China Normal University,30,0.5602240896358543,China,China (Mainland)
+43,Shanghai AI Lab,30,0.5602240896358543,China,China (Mainland)
+44,UC San Diego,29,0.5415499533146592,USA,USA
+45,MBZUAI,28,0.5228758169934641,UAE,Middle East
+46,UT Austin,27,0.5042016806722689,USA,USA
+47,University of Maryland,26,0.48552754435107376,USA,USA
+48,CUHK (Shenzhen),25,0.4668534080298786,China,China (Mainland)
+49,Beihang University,25,0.4668534080298786,China,China (Mainland)
+50,University of Washington,25,0.4668534080298786,USA,USA
+51,Sun Yat-sen University,25,0.4668534080298786,China,China (Mainland)
+52,Tencent,24,0.4481792717086835,China,China (Mainland)
+53,University of Tokyo,24,0.4481792717086835,Japan,Japan
+54,Purdue University,24,0.4481792717086835,USA,USA
+55,Northeastern University,23,0.4295051353874883,USA,USA
+56,University of Toronto,23,0.4295051353874883,Canada,Canada
+57,Johns Hopkins University,22,0.41083099906629317,USA,USA
+58,Duke University,22,0.41083099906629317,USA,USA
+59,Huawei,22,0.41083099906629317,China,China (Mainland)
+60,NVIDIA,21,0.39215686274509803,USA,USA
+61,Cornell University,21,0.39215686274509803,USA,USA
+62,South China U. of Technology,21,0.39215686274509803,China,China (Mainland)
+63,Google,21,0.39215686274509803,USA,USA
+64,University of Michigan,20,0.3734827264239029,USA,USA
+65,Apple,20,0.3734827264239029,USA,USA
+66,Yale University,19,0.35480859010270777,USA,USA
+67,Imperial College London,19,0.35480859010270777,UK,UK
+68,Columbia University,18,0.33613445378151263,USA,USA
+69,Technion,18,0.33613445378151263,Israel,Israel
+70,UCL,18,0.33613445378151263,UK,UK
+71,Texas A&M University,18,0.33613445378151263,USA,USA
+72,Korea University,18,0.33613445378151263,South Korea,South Korea
+73,University of Wisconsin–Madison,17,0.31746031746031744,USA,USA
+74,Rice University,17,0.31746031746031744,USA,USA
+75,Tongji University,17,0.31746031746031744,China,China (Mainland)
+76,Northwestern University,17,0.31746031746031744,USA,USA
+77,Xidian University,16,0.2987861811391223,China,China (Mainland)
+78,University of Edinburgh,16,0.2987861811391223,UK,UK
+79,Southeast University,16,0.2987861811391223,China,China (Mainland)
+80,University of Chicago,16,0.2987861811391223,USA,USA
+81,Penn State,16,0.2987861811391223,USA,USA
+82,ShanghaiTech University,16,0.2987861811391223,China,China (Mainland)
+83,Hong Kong Polytechnic University,15,0.2801120448179272,Hong Kong,Hong Kong
+84,LMU Munich,15,0.2801120448179272,Germany,Germany
+85,Ohio State University,15,0.2801120448179272,USA,USA
+86,HUST (Wuhan),15,0.2801120448179272,China,China (Mainland)
+87,Hong Kong Baptist University,15,0.2801120448179272,Hong Kong,Hong Kong
+88,Monash University,15,0.2801120448179272,Australia,Australia & NZ
+89,Westlake University,15,0.2801120448179272,China,China (Mainland)
+90,CISPA,14,0.26143790849673204,Germany,Germany
+91,Xiamen University,14,0.26143790849673204,China,China (Mainland)
+92,University of Amsterdam,14,0.26143790849673204,Netherlands,Other Europe
+93,SUSTech,14,0.26143790849673204,China,China (Mainland)
+94,Arizona State University,14,0.26143790849673204,USA,USA
+95,Ant Group,13,0.24276377217553688,China,China (Mainland)
+96,Tianjin University,13,0.24276377217553688,China,China (Mainland)
+97,IBM,13,0.24276377217553688,USA,USA
+98,UNC Chapel Hill,13,0.24276377217553688,USA,USA
+99,Google DeepMind,13,0.24276377217553688,UK,UK
+100,POSTECH,13,0.24276377217553688,South Korea,South Korea
+101,UESTC,13,0.24276377217553688,China,China (Mainland)
+102,KAUST,12,0.22408963585434175,Saudi Arabia,Middle East
+103,IST Austria,12,0.22408963585434175,Austria,Other Europe
+104,Sapienza / U. Pisa,12,0.22408963585434175,Italy,Other Europe
+105,University of Sydney,12,0.22408963585434175,Australia,Australia & NZ
+106,University of British Columbia,12,0.22408963585434175,Canada,Canada
+107,Inria,12,0.22408963585434175,France,France
+108,Beijing University of Posts and Telecommunications,12,0.22408963585434175,Other,Other / Unknown
+109,Singapore Management University,11,0.20541549953314658,Singapore,Singapore
+110,CAS Institute of Automation,11,0.20541549953314658,China,China (Mainland)
+111,Jilin University,11,0.20541549953314658,China,China (Mainland)
+112,Nanjing U. of Science & Technology,11,0.20541549953314658,China,China (Mainland)
+113,Shenzhen University,11,0.20541549953314658,China,China (Mainland)
+114,University of Waterloo,11,0.20541549953314658,Canada,Canada
+115,University of Melbourne,11,0.20541549953314658,Australia,Australia & NZ
+116,Institute of Science Tokyo,10,0.18674136321195145,Japan,Japan
+117,Wuhan University,10,0.18674136321195145,China,China (Mainland)
+118,UC Santa Cruz,10,0.18674136321195145,Other,Other / Unknown
+119,University of Virginia,10,0.18674136321195145,USA,USA
+120,Beijing Institute of Technology,10,0.18674136321195145,China,China (Mainland)
+121,CNRS,9,0.16806722689075632,France,France
+122,SUTD,9,0.16806722689075632,Singapore,Singapore
+123,Saarland University,9,0.16806722689075632,Germany,Germany
+124,University of Macau,9,0.16806722689075632,China,China (Mainland)
+125,Rutgers University,9,0.16806722689075632,USA,USA
+126,Qualcomm,9,0.16806722689075632,USA,USA
+127,University of Illinois Chicago,9,0.16806722689075632,USA,USA
+128,Michigan State University,9,0.16806722689075632,USA,USA
+129,Salesforce,9,0.16806722689075632,USA,USA
+130,Sichuan University,8,0.14939309056956115,China,China (Mainland)
+131,Aalto University,8,0.14939309056956115,Finland,Other Europe
+132,Max Planck Institutes,8,0.14939309056956115,Germany,Germany
+133,MoE Key Laboratory of Brain-inspired Intelligent Perception and Cognition,8,0.14939309056956115,Other,Other / Unknown
+134,Shanghai Innovation Institute,8,0.14939309056956115,China,China (Mainland)
+135,SungKyunKwan University,8,0.14939309056956115,South Korea,South Korea
+136,University of Central Florida,8,0.14939309056956115,USA,USA
+137,JKU Linz,8,0.14939309056956115,Austria,Other Europe
+138,Virginia Tech,8,0.14939309056956115,USA,USA
+139,Xi’an Jiaotong University,8,0.14939309056956115,Other,Other / Unknown
+140,University of Queensland,8,0.14939309056956115,Australia,Australia & NZ
+141,Nankai University,8,0.14939309056956115,China,China (Mainland)
+142,KTH Royal Institute of Technology,8,0.14939309056956115,Sweden,Other Europe
+143,University of Alberta,8,0.14939309056956115,Canada,Canada
+144,UTS Sydney,8,0.14939309056956115,Australia,Australia & NZ
+145,Amazon,8,0.14939309056956115,USA,USA
+146,Ben Gurion University,8,0.14939309056956115,Israel,Israel
+147,UMass Amherst,8,0.14939309056956115,USA,USA
+148,NC State University,8,0.14939309056956115,USA,USA
+149,Independent Researcher,7,0.13071895424836602,Other,Other / Unknown
+150,KIT,7,0.13071895424836602,Germany,Germany
+151,Bosch,7,0.13071895424836602,Germany,Germany
+152,University of Adelaide,7,0.13071895424836602,Australia,Australia & NZ
+153,TU Delft,7,0.13071895424836602,Netherlands,Other Europe
+154,Beijing Jiaotong University,7,0.13071895424836602,China,China (Mainland)
+155,Nanjing U. of Aeronautics & Astronautics,7,0.13071895424836602,China,China (Mainland)
+156,BIGAI,7,0.13071895424836602,China,China (Mainland)
+157,Samsung,7,0.13071895424836602,South Korea,South Korea
+158,Adobe,6,0.11204481792717087,USA,USA
+159,GIST,6,0.11204481792717087,South Korea,South Korea
+160,Stony Brook University,6,0.11204481792717087,USA,USA
+161,Dartmouth College,6,0.11204481792717087,USA,USA
+162,Flatiron Institute,6,0.11204481792717087,USA,USA
+163,NYCU,6,0.11204481792717087,Taiwan,Taiwan
+164,École Polytechnique,6,0.11204481792717087,France,France
+165,KU Leuven,6,0.11204481792717087,Belgium,Other Europe
+166,National Taiwan University,6,0.11204481792717087,Taiwan,Taiwan
+167,King’s College London,6,0.11204481792717087,Other,Other / Unknown
+168,University of Notre Dame,6,0.11204481792717087,USA,USA
+169,RIT,6,0.11204481792717087,USA,USA
+170,UC Irvine,6,0.11204481792717087,USA,USA
+171,UC Riverside,6,0.11204481792717087,USA,USA
+172,UC Davis,6,0.11204481792717087,USA,USA
+173,Sakana AI,6,0.11204481792717087,Japan,Japan
+174,Tel Aviv University,6,0.11204481792717087,Israel,Israel
+175,University of Trento,6,0.11204481792717087,Italy,Other Europe
+176,University of Minnesota,6,0.11204481792717087,USA,USA
+177,Simon Fraser University,6,0.11204481792717087,Canada,Canada
+178,Boston University,6,0.11204481792717087,USA,USA
+179,Fraunhofer,5,0.09337068160597572,Germany,Germany
+180,Shandong University,5,0.09337068160597572,China,China (Mainland)
+181,Heidelberg University,5,0.09337068160597572,Germany,Germany
+182,Italian Institute of Technology,5,0.09337068160597572,Italy,Other Europe
+183,UT Dallas,5,0.09337068160597572,USA,USA
+184,USTB,5,0.09337068160597572,China,China (Mainland)
+185,NAVER,5,0.09337068160597572,South Korea,South Korea
+186,Graduate School of Artificial Intelligence,5,0.09337068160597572,Other,Other / Unknown
+187,Department of Computer Science,5,0.09337068160597572,Other,Other / Unknown
+188,University of Helsinki,5,0.09337068160597572,Finland,Other Europe
+189,UC Santa Barbara,5,0.09337068160597572,USA,USA
+190,Beijing Normal University,5,0.09337068160597572,China,China (Mainland)
+191,Central South University,5,0.09337068160597572,China,China (Mainland)
+192,Sharif University of Technology,5,0.09337068160597572,Iran,Middle East
+193,Xiaohongshu,5,0.09337068160597572,China,China (Mainland)
+194,Western University,5,0.09337068160597572,Canada,Canada
+195,Tohoku University,5,0.09337068160597572,Japan,Japan
+196,Indian Institute of Science,5,0.09337068160597572,India,India
+197,Shanghai University,5,0.09337068160597572,China,China (Mainland)
+198,Shanghai U. of Finance & Economics,5,0.09337068160597572,China,China (Mainland)
+199,Hebrew University of Jerusalem,5,0.09337068160597572,Israel,Israel
+200,Northwestern Polytechnical U.,5,0.09337068160597572,China,China (Mainland)
+201,University of Copenhagen,5,0.09337068160597572,Denmark,Other Europe
+202,NTT,4,0.07469654528478058,Japan,Japan
+203,NUDT,4,0.07469654528478058,China,China (Mainland)
+204,Chinese Academy of Sciences,4,0.07469654528478058,China,China (Mainland)
+205,Scale AI,4,0.07469654528478058,USA,USA
+206,Indian Institute of Technology,4,0.07469654528478058,India,India
+207,Soochow University,4,0.07469654528478058,China,China (Mainland)
+208,Anhui University,4,0.07469654528478058,China,China (Mainland)
+209,TTIC,4,0.07469654528478058,USA,USA
+210,NJIT,4,0.07469654528478058,USA,USA
+211,University of Basel,4,0.07469654528478058,Switzerland,Switzerland
+212,BAAI,4,0.07469654528478058,China,China (Mainland)
+213,University of Auckland,4,0.07469654528478058,New Zealand,Australia & NZ
+214,Meituan,4,0.07469654528478058,China,China (Mainland)
+215,"Applied AI Institute, Moscow, Russia",4,0.07469654528478058,Other,Other / Unknown
+216,Czech Technical University Prague,4,0.07469654528478058,Czechia,Other Europe
+217,University of Bristol,4,0.07469654528478058,UK,UK
+218,University of Exeter,4,0.07469654528478058,UK,UK
+219,University of Surrey,4,0.07469654528478058,UK,UK
+220,Chung-Ang University,4,0.07469654528478058,South Korea,South Korea
+221,Department of Computer Science and Engineering,4,0.07469654528478058,Other,Other / Unknown
+222,University of Tübingen,4,0.07469654528478058,Germany,Germany
+223,Sony,4,0.07469654528478058,Japan,Japan
+224,University of Houston,4,0.07469654528478058,USA,USA
+225,Applied AI Institute,4,0.07469654528478058,Other,Other / Unknown
+226,University of Oslo,4,0.07469654528478058,Norway,Other Europe
+227,Kyoto University,4,0.07469654528478058,Japan,Japan
+228,Technical University of Denmark,4,0.07469654528478058,Denmark,Other Europe
+229,Iowa State University,4,0.07469654528478058,USA,USA
+230,Xiaomi,4,0.07469654528478058,China,China (Mainland)
+231,Brown University,4,0.07469654528478058,USA,USA
+232,Li Auto,4,0.07469654528478058,China,China (Mainland)
+233,University at Buffalo,4,0.07469654528478058,USA,USA
+234,"Beijing University of Posts and Telecommunications, China",4,0.07469654528478058,Other,Other / Unknown
+235,Yandex,4,0.07469654528478058,Russia,Other Europe
+236,Allen Institute for AI,3,0.056022408963585436,USA,USA
+237,Télécom Paris,3,0.056022408963585436,France,France
+238,Australian National University,3,0.056022408963585436,Australia,Australia & NZ
+239,RIKEN,3,0.056022408963585436,Japan,Japan
+240,StepFun,3,0.056022408963585436,China,China (Mainland)
+241,Bocconi University,3,0.056022408963585436,Italy,Other Europe
+242,LG AI Research,3,0.056022408963585436,South Korea,South Korea
+243,OPPO,3,0.056022408963585436,China,China (Mainland)
+244,BUPT,3,0.056022408963585436,China,China (Mainland)
+245,TU Darmstadt,3,0.056022408963585436,Germany,Germany
+246,Deakin University,3,0.056022408963585436,Australia,Australia & NZ
+247,Jinan University,3,0.056022408963585436,China,China (Mainland)
+248,The Key Laboratory of Cognition and Decision Intelligence for Complex Systems,3,0.056022408963585436,Other,Other / Unknown
+249,Anthropic,3,0.056022408963585436,USA,USA
+250,University of Birmingham,3,0.056022408963585436,UK,UK
+251,Zhengzhou University,3,0.056022408963585436,China,China (Mainland)
+252,WPI,3,0.056022408963585436,USA,USA
+253,Politecnico di Milano,3,0.056022408963585436,Italy,Other Europe
+254,Department of Electrical and Computer Engineering,3,0.056022408963585436,Other,Other / Unknown
+255,Weizmann Institute of Science,3,0.056022408963585436,Israel,Israel
+256,State Key Laboratory of Multimedia Information Processing,3,0.056022408963585436,Other,Other / Unknown
+257,RPI,3,0.056022408963585436,USA,USA
+258,Department of Electrical Engineering,3,0.056022408963585436,Other,Other / Unknown
+259,Baidu,3,0.056022408963585436,China,China (Mainland)
+260,IIT Bombay,3,0.056022408963585436,India,India
+261,EleutherAI,3,0.056022408963585436,Other,Other / Unknown
+262,AMD,3,0.056022408963585436,USA,USA
+263,Case Western Reserve University,3,0.056022408963585436,USA,USA
+264,Moscow Indep. Research Institute of AI,3,0.056022408963585436,Russia,Other Europe
+265,OpenAI,3,0.056022408963585436,USA,USA
+266,Dalian U. of Technology,3,0.056022408963585436,China,China (Mainland)
+267,University of Zurich,3,0.056022408963585436,Switzerland,Switzerland
+268,The University of Osaka,3,0.056022408963585436,Other,Other / Unknown
+269,SenseTime,3,0.056022408963585436,China,China (Mainland)
+270,Peng Cheng Lab,3,0.056022408963585436,China,China (Mainland)
+271,TU Eindhoven,3,0.056022408963585436,Netherlands,Other Europe
+272,University of Florida,3,0.056022408963585436,USA,USA
+273,Houmo AI,3,0.056022408963585436,Other,Other / Unknown
+274,University of Bonn,3,0.056022408963585436,Germany,Germany
+275,KRAFTON,3,0.056022408963585436,South Korea,South Korea
+276,Cerebras,3,0.056022408963585436,USA,USA
+277,Lomonosov MSU,2,0.03734827264239029,Russia,Other Europe
+278,University of Connecticut,2,0.03734827264239029,USA,USA
+279,Oregon State University,2,0.03734827264239029,Other,Other / Unknown
+280,Genentech,2,0.03734827264239029,USA,USA
+281,"Institute of Image Processing and Pattern Recognition, School of Automation and Intelligent Sensing",2,0.03734827264239029,Other,Other / Unknown
+282,Technical University of Darmstadt,2,0.03734827264239029,Other,Other / Unknown
+283,"Kaiserslautern, Germany",2,0.03734827264239029,Other,Other / Unknown
+284,Guangdong Key Laboratory of Data Security and Privacy Preserving,2,0.03734827264239029,Other,Other / Unknown
+285,Shenzhen U. of Advanced Tech,2,0.03734827264239029,China,China (Mainland)
+286,Ecole Normale Supérieure de Lyon,2,0.03734827264239029,Other,Other / Unknown
+287,Department of Mathematics,2,0.03734827264239029,Other,Other / Unknown
+288,University of Warwick,2,0.03734827264239029,UK,UK
+289,Oklahoma State University,2,0.03734827264239029,Other,Other / Unknown
+290,University of Stuttgart,2,0.03734827264239029,Other,Other / Unknown
+291,Guangdong U. of Technology,2,0.03734827264239029,China,China (Mainland)
+292,Pusan National University,2,0.03734827264239029,Other,Other / Unknown
+293,Beijing University of Chemical Technology,2,0.03734827264239029,Other,Other / Unknown
+294,University of Massachusetts,2,0.03734827264239029,Other,Other / Unknown
+295,China Telecom,2,0.03734827264239029,China,China (Mainland)
+296,CASIA,2,0.03734827264239029,Other,Other / Unknown
+297,JD.com,2,0.03734827264239029,China,China (Mainland)
+298,TU Berlin,2,0.03734827264239029,Germany,Germany
+299,Max Planck Institute for Informatics,2,0.03734827264239029,Other,Other / Unknown
+300,George Mason University,2,0.03734827264239029,USA,USA
+301,UNIST,2,0.03734827264239029,South Korea,South Korea
+302,DKFZ Heidelberg,2,0.03734827264239029,Germany,Germany
+303,"T¨ubingen AI Center, University of T¨ubingen",2,0.03734827264239029,Other,Other / Unknown
+304,FPT Software AI Center,2,0.03734827264239029,Other,Other / Unknown
+305,Dongguk University-Seoul,2,0.03734827264239029,Other,Other / Unknown
+306,Tel-Aviv University,2,0.03734827264239029,Other,Other / Unknown
+307,State Key Laboratory for Multimedia Information Processing,2,0.03734827264239029,Other,Other / Unknown
+308,Hebei Normal University,2,0.03734827264239029,Other,Other / Unknown
+309,Ecole Nationale de la Statistique et de l'Administration Economique,2,0.03734827264239029,Other,Other / Unknown
+310,School of Computer Science,2,0.03734827264239029,Other,Other / Unknown
+311,University of Pittsburgh,2,0.03734827264239029,USA,USA
+312,University of Modena and Reggio Emilia,2,0.03734827264239029,Italy,Other Europe
+313,Vrije Universiteit Brussel,2,0.03734827264239029,Belgium,Other Europe
+314,Victoria U. Wellington,2,0.03734827264239029,New Zealand,Australia & NZ
+315,AITRICS,2,0.03734827264239029,Other,Other / Unknown
+316,CSIRO,2,0.03734827264239029,Australia,Australia & NZ
+317,UNSW Sydney,2,0.03734827264239029,Australia,Australia & NZ
+318,Lehigh University,2,0.03734827264239029,USA,USA
+319,University of Iowa,2,0.03734827264239029,Other,Other / Unknown
+320,Shanghai Academy of AI for Science,2,0.03734827264239029,Other,Other / Unknown
+321,CityUHK,2,0.03734827264239029,Other,Other / Unknown
+322,"Lausanne, Switzerland",2,0.03734827264239029,Other,Other / Unknown
+323,North University of China,2,0.03734827264239029,Other,Other / Unknown
+324,MATS,2,0.03734827264239029,Other,Other / Unknown
+325,AXXX,2,0.03734827264239029,Other,Other / Unknown
+326,University College Dublin,2,0.03734827264239029,Other,Other / Unknown
+327,Hasso Plattner Institute,2,0.03734827264239029,Germany,Germany
+328,DFKI,2,0.03734827264239029,Germany,Germany
+329,"Shanghai Key Lab of Intelligent Information Processing, and",2,0.03734827264239029,Other,Other / Unknown
+330,Virginia Commonwealth University,2,0.03734827264239029,Other,Other / Unknown
+331,ETRI,2,0.03734827264239029,South Korea,South Korea
+332,Hangzhou Dianzi University,2,0.03734827264239029,China,China (Mainland)
+333,"Max Planck Institute of Biochemistry, Martinsried, Germany",2,0.03734827264239029,Other,Other / Unknown
+334,Innopolis University,2,0.03734827264239029,Russia,Other Europe
+335,Vivo,2,0.03734827264239029,China,China (Mainland)
+336,Jilin University1,2,0.03734827264239029,Other,Other / Unknown
+337,"Milan, Italy",2,0.03734827264239029,Other,Other / Unknown
+338,Hanyang University,2,0.03734827264239029,Other,Other / Unknown
+339,University of Freiburg,2,0.03734827264239029,Other,Other / Unknown
+340,MPI for Software Systems,2,0.03734827264239029,Germany,Germany
+341,Institute of Numerical Mathematics,2,0.03734827264239029,Russia,Other Europe
+342,M-A-P,2,0.03734827264239029,Other,Other / Unknown
+343,Moonshot AI,2,0.03734827264239029,China,China (Mainland)
+344,Hefei U. of Technology,2,0.03734827264239029,China,China (Mainland)
+345,University of California (other),2,0.03734827264239029,USA,USA
+346,Caltech,2,0.03734827264239029,USA,USA
+347,"AXXX, MIRIAI",2,0.03734827264239029,Other,Other / Unknown
+348,Indiana University Bloomington,2,0.03734827264239029,Other,Other / Unknown
+349,Kuaishou,2,0.03734827264239029,China,China (Mainland)
+350,"Beijing Key Laboratory of Intelligent Information Technology, School of Computer Science & Technology, Guangdong Laboratory of Machine Perception and Intelligent Computing, Shenzhen MSU-BIT University",2,0.03734827264239029,Other,Other / Unknown
+351,"Courant Institute of Mathematical Sciences, New York University1, Center for Data Science, New York University2, Grossman School of Medicine, New York University3",2,0.03734827264239029,Other,Other / Unknown
+352,TU Wien,2,0.03734827264239029,Austria,Other Europe
+353,Trivita AI,2,0.03734827264239029,Other,Other / Unknown
+354,"Xi’an Jiaotong-Liverpool University, China",2,0.03734827264239029,Other,Other / Unknown
+355,Tulane University,2,0.03734827264239029,USA,USA
+356,Khalifa University,2,0.03734827264239029,Other,Other / Unknown
+357,University of T¨ubingen,2,0.03734827264239029,Other,Other / Unknown
+358,TU Dortmund,2,0.03734827264239029,Germany,Germany
+359,Independent,2,0.03734827264239029,Other,Other / Unknown
+360,Queen Mary University of London,2,0.03734827264239029,UK,UK
+361,University of Rochester,2,0.03734827264239029,USA,USA
+362,Kyung Hee University,2,0.03734827264239029,South Korea,South Korea
+363,ELLIS Institute Tübingen,2,0.03734827264239029,Germany,Germany
+364,xAI,1,0.018674136321195144,USA,USA
+365,Pleias,1,0.018674136321195144,Other,Other / Unknown
+366,Toyota Research Institute,1,0.018674136321195144,USA,USA
+367,"Institute for AI, BNRist Center",1,0.018674136321195144,Other,Other / Unknown
+368,"Key Laboratory of Multimedia Trusted Perception and Efficient Computing, Ministry of Education",1,0.018674136321195144,Other,Other / Unknown
+369,Dept. of Cell and Developmental Biology,1,0.018674136321195144,Other,Other / Unknown
+370,"Beijing University of Posts and Telecommunications, Beijing 100876, China",1,0.018674136321195144,Other,Other / Unknown
+371,San Diego State University,1,0.018674136321195144,Other,Other / Unknown
+372,Yamanashi University,1,0.018674136321195144,Other,Other / Unknown
+373,"AXXX, Moscow, Russia, Applied AI Institute, Moscow, Russia",1,0.018674136321195144,Other,Other / Unknown
+374,Kookmin University,1,0.018674136321195144,Other,Other / Unknown
+375,RPTU Kaiserslautern-Landau,1,0.018674136321195144,Other,Other / Unknown
+376,"aHarvard School of Engineering and Applied Science, bKempner Institute for the Study of Natural & Artificial Intelligence, cHarvard Business School",1,0.018674136321195144,Other,Other / Unknown
+377,"OGQ, Seoul, Korea",1,0.018674136321195144,Other,Other / Unknown
+378,"Applied AI Institute, Moscow, Russia, BRAIn Lab, Moscow, Russia, AI Foundation lab, Moscow, Russia",1,0.018674136321195144,Other,Other / Unknown
+379,Department of Mathematical,1,0.018674136321195144,Other,Other / Unknown
+380,"aLehigh University, Bethlehem PA, USA, bStanford University, Palo Alto CA, USA",1,0.018674136321195144,Other,Other / Unknown
+381,"National and Kapodistrian University of Athens, Greece, Archimedes, Athena Research Center, Greece",1,0.018674136321195144,Other,Other / Unknown
+382,Niantic Spatial,1,0.018674136321195144,Other,Other / Unknown
+383,"Generative AI Lab, College of Computing and Data Science, Nanyang Technological",1,0.018674136321195144,Other,Other / Unknown
+384,"Applied AI Institute,Moscow, Russia",1,0.018674136321195144,Other,Other / Unknown
+385,National Engineering Research Center of Robot Visual Perception and,1,0.018674136321195144,Other,Other / Unknown
+386,Chair for AI in Healthcare and Medicine,1,0.018674136321195144,Other,Other / Unknown
+387,"Cold Spring Harbor Laboratory, Cold Spring Harbor, NY , USA",1,0.018674136321195144,Other,Other / Unknown
+388,National Tsing Hua University,1,0.018674136321195144,Other,Other / Unknown
+389,"Southwest University, Chongqing, China, Chongqing Key Laboratory of Brain-Inspired Cognitive Computing and",1,0.018674136321195144,Other,Other / Unknown
+390,Deep Interdisciplinary Intelligence Lab,1,0.018674136321195144,Other,Other / Unknown
+391,Free University of Bozen-Bolzano,1,0.018674136321195144,Other,Other / Unknown
+392,University of Vermont,1,0.018674136321195144,Other,Other / Unknown
+393,Univeristy of Maryland,1,0.018674136321195144,Other,Other / Unknown
+394,Laplace Lab at University of Tennessee,1,0.018674136321195144,Other,Other / Unknown
+395,"InstituteofIntelligentTechnology, AlibabaInternationalDigitalCommerceGroup",1,0.018674136321195144,Other,Other / Unknown
+396,"Institute of Artificial Intelligence, Hefei Comprehensive National Science Center",1,0.018674136321195144,Other,Other / Unknown
+397,University of Science and TechnolZengogy of China,1,0.018674136321195144,Other,Other / Unknown
+398,"MatrixRobotics, Shanghai, China, UAES AI Lab, Shanghai, China",1,0.018674136321195144,Other,Other / Unknown
+399,"Hanoi University of Science and Technology, Vietnam",1,0.018674136321195144,Other,Other / Unknown
+400,Tianjin Key Laboratory of Wireless Mobile Communications and Power Transmission,1,0.018674136321195144,Other,Other / Unknown
+401,"Zhejiang University1, Independent Author 2",1,0.018674136321195144,Other,Other / Unknown
+402,Department of Chemistry,1,0.018674136321195144,Other,Other / Unknown
+403,Barreleye Inc,1,0.018674136321195144,Other,Other / Unknown
+404,National Engineering Research Center for Multimedia Software,1,0.018674136321195144,Other,Other / Unknown
+405,"Hangzhou City University, China",1,0.018674136321195144,Other,Other / Unknown
+406,"Institute for Machine Learning, JKU LIT SAL IWS Lab",1,0.018674136321195144,Other,Other / Unknown
+407,"¨Orebro University, Department of Computer Science, ¨Orebro University, Department of Computer Science, ¨Orebro University",1,0.018674136321195144,Other,Other / Unknown
+408,"Generative AI Lab, College of Computing and Data Science",1,0.018674136321195144,Other,Other / Unknown
+409,"Helmholtz Munich, Ludwig Maximilian University of Munich",1,0.018674136321195144,Other,Other / Unknown
+410,Beijing Innovation Center of Humanoid Robotics,1,0.018674136321195144,Other,Other / Unknown
+411,Korea University1 AIGEN Sciences2,1,0.018674136321195144,Other,Other / Unknown
+412,Aalborg University,1,0.018674136321195144,Other,Other / Unknown
+413,Wayne State University,1,0.018674136321195144,Other,Other / Unknown
+414,University of Aberdeen,1,0.018674136321195144,Other,Other / Unknown
+415,Department of Computer Science and Technology,1,0.018674136321195144,Other,Other / Unknown
+416,"Auburn University, USA",1,0.018674136321195144,Other,Other / Unknown
+417,State Key Lab of General Artificial Intelligence,1,0.018674136321195144,Other,Other / Unknown
+418,Earth Species Project,1,0.018674136321195144,USA,USA
+419,Avey AI,1,0.018674136321195144,Other,Other / Unknown
+420,University of Louisiana at Lafayette,1,0.018674136321195144,Other,Other / Unknown
+421,"MALTA – Machine Learning Theory and Applications Lab, PUCRS – Porto Alegre, Brazil",1,0.018674136321195144,Other,Other / Unknown
+422,"AI4Health Division, Carl von Ossietzky Universit¨at Oldenburg",1,0.018674136321195144,Other,Other / Unknown
+423,School of Intelligence Science and Engineering and Key Labo-,1,0.018674136321195144,Other,Other / Unknown
+424,The Alan Turing Institute,1,0.018674136321195144,Other,Other / Unknown
+425,James Watt School of Engineering,1,0.018674136321195144,Other,Other / Unknown
+426,"Gandhinagar, Gujarat, India",1,0.018674136321195144,Other,Other / Unknown
+427,UC Merced,1,0.018674136321195144,USA,USA
+428,Chalmers University of Technology,1,0.018674136321195144,Other,Other / Unknown
+429,"Centre de Recerca Matem`atica, Bellaterra (Barcelona), Spain, CRG (Barcelona Collaboratorium for Modelling and Predictive Biology)",1,0.018674136321195144,Other,Other / Unknown
+430,Chang’an University,1,0.018674136321195144,Other,Other / Unknown
+431,"Amherst, MA",1,0.018674136321195144,Other,Other / Unknown
+432,"Hertie Institute, University of T¨ubingen, IMPRS-IS",1,0.018674136321195144,Other,Other / Unknown
+433,International Digital Economy Academy,1,0.018674136321195144,Other,Other / Unknown
+434,Department of Electrical and,1,0.018674136321195144,Other,Other / Unknown
+435,"Warsaw University of Technology, Warsaw, Poland",1,0.018674136321195144,Other,Other / Unknown
+436,McMaster University,1,0.018674136321195144,Other,Other / Unknown
+437,University of M¨unster,1,0.018674136321195144,Other,Other / Unknown
+438,Institute for Health Computing,1,0.018674136321195144,Other,Other / Unknown
+439,"Dipartimento di Scienze Matematiche, Politecnico di Torino",1,0.018674136321195144,Other,Other / Unknown
+440,"Hertie Institute for AI in Brain Health, University of T¨ubingen, Germany, T¨ubingen AI Center, University of T¨ubingen, T¨ubingen, Germany, Charit´e – Universit¨atsmedizin Berlin, Department of Psychiatry and Psychotherapy, Berlin, Germany",1,0.018674136321195144,Other,Other / Unknown
+441,Lakera AI,1,0.018674136321195144,Other,Other / Unknown
+442,"Computer Science and Engineering Department, University of Texas at Arlington",1,0.018674136321195144,Other,Other / Unknown
+443,"Bitdefender, Romania, University of Bucharest, Romania",1,0.018674136321195144,Other,Other / Unknown
+444,RMIT University,1,0.018674136321195144,Australia,Australia & NZ
+445,"Institute of Informatics, University of Warsaw",1,0.018674136321195144,Other,Other / Unknown
+446,Dept. of ECE&ASRI,1,0.018674136321195144,Other,Other / Unknown
+447,European Central Bank,1,0.018674136321195144,Other,Other / Unknown
+448,"Uppsala University, Sweden, Uppsala University, Sweden",1,0.018674136321195144,Other,Other / Unknown
+449,Datumo Inc.,1,0.018674136321195144,Other,Other / Unknown
+450,Cisco,1,0.018674136321195144,USA,USA
+451,"State Key Laboratory for Novel Software Technology, Nanjing Univerisity",1,0.018674136321195144,Other,Other / Unknown
+452,Institute of,1,0.018674136321195144,Other,Other / Unknown
+453,Washington Univeristy in St. Louis,1,0.018674136321195144,Other,Other / Unknown
+454,"AI for Science Interdisciplinary Research Center, School of Computer Science",1,0.018674136321195144,Other,Other / Unknown
+455,"Indian Statistical Institute, Kolkata",1,0.018674136321195144,Other,Other / Unknown
+456,Universit´e de Montr´eal,1,0.018674136321195144,Other,Other / Unknown
+457,"HEC, University of Lausanne, Switzerland",1,0.018674136321195144,Other,Other / Unknown
+458,Laboratoire d'Informatique et Systèmes,1,0.018674136321195144,Other,Other / Unknown
+459,"Gail Kaiser2, Baishakhi Ray2, Wei Le1",1,0.018674136321195144,Other,Other / Unknown
+460,University of Tromsø,1,0.018674136321195144,Other,Other / Unknown
+461,Transvascular Implantation Devices Research Institute and College of Computer,1,0.018674136321195144,Other,Other / Unknown
+462,"Computer Vision Group, Department of Computer Science, University of Bern",1,0.018674136321195144,Other,Other / Unknown
+463,University of Manchester,1,0.018674136321195144,UK,UK
+464,Australian Institute for Machine Learning,1,0.018674136321195144,Other,Other / Unknown
+465,BioTechMed-Graz,1,0.018674136321195144,Other,Other / Unknown
+466,"University of Shanghai for Science and Technology, Universität Hamburg, ComOriginMat Inc",1,0.018674136321195144,Other,Other / Unknown
+467,"SJTU, XMUT, CASIA",1,0.018674136321195144,Other,Other / Unknown
+468,Aberystwyth University,1,0.018674136321195144,Other,Other / Unknown
+469,"The Centre for Artificial Intelligence Research, University of Agder, Grimstad, Norway, NORCE Research AS (NORCE), Grimstad, Norway",1,0.018674136321195144,Other,Other / Unknown
+470,Getulio Vargas Foundation,1,0.018674136321195144,Other,Other / Unknown
+471,Steklov Institute of Mathematics,1,0.018674136321195144,Other,Other / Unknown
+472,University of Peradeniya,1,0.018674136321195144,Other,Other / Unknown
+473,Key Laboratory of New Generation Artificial Intelligence,1,0.018674136321195144,Other,Other / Unknown
+474,RWTH Aachen University & FZ J¨ulich,1,0.018674136321195144,Other,Other / Unknown
+475,University of Y ork 2pxld.ai,1,0.018674136321195144,Other,Other / Unknown
+476,"Division of Medical Image Computing, German Cancer Research Center, Heidelberg, Germany",1,0.018674136321195144,Other,Other / Unknown
+477,"State Key Laboratory of Membrane Biology, Beijing Frontier Research Center of Biological",1,0.018674136321195144,Other,Other / Unknown
+478,State Key Laboratory of Membrane Biology–Membrane Structure and Artificial Intelligence Biology Branch,1,0.018674136321195144,Other,Other / Unknown
+479,THU,1,0.018674136321195144,Other,Other / Unknown
+480,◦Graz University of Technology,1,0.018674136321195144,Other,Other / Unknown
+481,Maum.AI,1,0.018674136321195144,Other,Other / Unknown
+482,Statistical Physics of Computation Laboratory,1,0.018674136321195144,Other,Other / Unknown
+483,University of Novi Sad,1,0.018674136321195144,Other,Other / Unknown
+484,"Santiago, Chile",1,0.018674136321195144,Other,Other / Unknown
+485,"National Key Laboratory of Human-Machine Hybrid Augmented Intelligence, Institute of Artificial Intelligence and Robotics, Xi’an Jiaotong University",1,0.018674136321195144,Other,Other / Unknown
+486,Qufu Normal University,1,0.018674136321195144,Other,Other / Unknown
+487,Laboratory of Computational Intelligence,1,0.018674136321195144,Other,Other / Unknown
+488,"Macquarie University, Sydney, NSW, Australia",1,0.018674136321195144,Other,Other / Unknown
+489,Nous Research,1,0.018674136321195144,Other,Other / Unknown
+490,Friedrich-Alexander-Universit¨at Erlangen-N¨urnberg,1,0.018674136321195144,Other,Other / Unknown
+491,University of Neuch ˆatel,1,0.018674136321195144,Other,Other / Unknown
+492,"Xi’an Jiaotong University, Hikrobot Co., Ltd",1,0.018674136321195144,Other,Other / Unknown
+493,Beijing Institute of Mathematical Sciences and Applications,1,0.018674136321195144,Other,Other / Unknown
+494,"University at Albany, SUNY",1,0.018674136321195144,Other,Other / Unknown
+495,"Center for Social Computing and Interactive Robotics, Zhongguancun Laboratory, Beijing, China",1,0.018674136321195144,Other,Other / Unknown
+496,Tampere University,1,0.018674136321195144,Other,Other / Unknown
+497,"University of São Paulo, Instituto Curvelo",1,0.018674136321195144,Other,Other / Unknown
+498,Department of Statistical Sciences,1,0.018674136321195144,Other,Other / Unknown
+499,"Biophysics Graduate Program, Kempner Institute for the Study of Natural and Artificial Intelligence",1,0.018674136321195144,Other,Other / Unknown
+500,LiAuto,1,0.018674136321195144,Other,Other / Unknown
+501,U. of Western Australia,1,0.018674136321195144,Australia,Australia & NZ
+502,"Jilin University1, International Center of Future Science, Jilin University2, Engineering Research Center of Knowledge-Driven Human-Machine Intelligence, MOE3",1,0.018674136321195144,Other,Other / Unknown
+503,"Leuven, Belgium",1,0.018674136321195144,Other,Other / Unknown
+504,"Digital Future Lab - Flanders Make, UHasselt - Hasselt University",1,0.018674136321195144,Other,Other / Unknown
+505,"Institute of Information Science, School of Computer Science and Technology, Visual Intelligence + X International Cooperation Joint Laboratory of MOE",1,0.018674136321195144,Other,Other / Unknown
+506,"LIACS, Leiden University, Centrum Wiskunde en Informatica",1,0.018674136321195144,Other,Other / Unknown
+507,Intellifusion Inc,1,0.018674136321195144,Other,Other / Unknown
+508,"MATS Program, RAND Corporation",1,0.018674136321195144,Other,Other / Unknown
+509,Bar-Ilan University,1,0.018674136321195144,Other,Other / Unknown
+510,Utah State University,1,0.018674136321195144,Other,Other / Unknown
+511,University of Georgia,1,0.018674136321195144,USA,USA
+512,"Yunnan University, Kunming, China",1,0.018674136321195144,Other,Other / Unknown
+513,FuriosaAI,1,0.018674136321195144,Other,Other / Unknown
+514,2Yinwang Intelligent Technology Co. Ltd,1,0.018674136321195144,Other,Other / Unknown
+515,Sejong University,1,0.018674136321195144,Other,Other / Unknown
+516,"Hebei Normal University, Shijiazhuang, China",1,0.018674136321195144,Other,Other / Unknown
+517,"University of Leicester, Leicester, UK",1,0.018674136321195144,Other,Other / Unknown
+518,"Create Way,#08-01 Create Tower, Singapore 138602, Agency for Research, Science, Technology and Research (A",1,0.018674136321195144,Other,Other / Unknown
+519,"Graduate School of Info. Sci. and Elect. Eng, Kyushu University, Fukuoka, Japan",1,0.018674136321195144,Other,Other / Unknown
+520,"University of Zagreb, Croatia",1,0.018674136321195144,Other,Other / Unknown
+521,IIIT Delhi,1,0.018674136321195144,Other,Other / Unknown
+522,Vanderbilt University,1,0.018674136321195144,Other,Other / Unknown
+523,Beijing U. of Technology,1,0.018674136321195144,China,China (Mainland)
+524,CRRC Zhuzhou Institute & Tengen Intelligence Institute,1,0.018674136321195144,Other,Other / Unknown
+525,"Institute for Systems and Robotics, Instituto Superior T´ecnico, U. Lisboa",1,0.018674136321195144,Other,Other / Unknown
+526,"INSAIT, Sofia University “St. Kliment Ohridski”",1,0.018674136321195144,Other,Other / Unknown
+527,"AI Lab, LG Electronics",1,0.018674136321195144,Other,Other / Unknown
+528,"University of Freiburg, Freiburg, Germany",1,0.018674136321195144,Other,Other / Unknown
+529,D’Amore-McKim School of Business,1,0.018674136321195144,Other,Other / Unknown
+530,Lappeenranta-Lahti University of Technology LUT,1,0.018674136321195144,Other,Other / Unknown
+531,State Key Laboratory of Human-Machine Hybrid Augmented Intelligence,1,0.018674136321195144,Other,Other / Unknown
+532,Guangdong Provincial Key Laboratory of Intelligent Information Processing and,1,0.018674136321195144,Other,Other / Unknown
+533,Naval Postgraduate School,1,0.018674136321195144,Other,Other / Unknown
+534,Sogang University,1,0.018674136321195144,South Korea,South Korea
+535,"U2IS, ENSTA, Institut Polytechnique de Paris",1,0.018674136321195144,Other,Other / Unknown
+536,Nota Inc,1,0.018674136321195144,Other,Other / Unknown
+537,Fujitsu Research & Development Center,1,0.018674136321195144,Other,Other / Unknown
+538,Industrial,1,0.018674136321195144,Other,Other / Unknown
+539,"The State Key Laboratory of Internet of Things for Smart City, Department of Computer and",1,0.018674136321195144,Other,Other / Unknown
+540,"George Washington University, LMI Consulting",1,0.018674136321195144,Other,Other / Unknown
+541,University of Cologne,1,0.018674136321195144,Other,Other / Unknown
+542,"College Station, TX 77843, USA",1,0.018674136321195144,Other,Other / Unknown
+543,Columbia,1,0.018674136321195144,Other,Other / Unknown
+544,"Airbus SAS, France, IRT Saint-Exupery, France",1,0.018674136321195144,Other,Other / Unknown
+545,TNO,1,0.018674136321195144,Other,Other / Unknown
+546,"Xi’an Jiaotong University, State Key Laboratory of Human-Machine Hybrid Augmented Intelligence, Xi’an Jiaotong University",1,0.018674136321195144,Other,Other / Unknown
+547,Lanzhou University,1,0.018674136321195144,Other,Other / Unknown
+548,Inha University,1,0.018674136321195144,Other,Other / Unknown
+549,Fractal AI Research,1,0.018674136321195144,Other,Other / Unknown
+550,"Universit`a della Svizzera italiana, Switzerland",1,0.018674136321195144,Other,Other / Unknown
+551,"University of St. Gallen, Switzerland, Donostia International Physics Center",1,0.018674136321195144,Other,Other / Unknown
+552,Columbia Business School,1,0.018674136321195144,Other,Other / Unknown
+553,"Bellini College of Artificial Intelligence, Cybersecurity, and Computing, University of South Florida",1,0.018674136321195144,Other,Other / Unknown
+554,DAG-Based Parallel Execution,1,0.018674136321195144,Other,Other / Unknown
+555,Zhongguancun Academy,1,0.018674136321195144,China,China (Mainland)
+556,University of Ljubljana,1,0.018674136321195144,Other,Other / Unknown
+557,"Center for Control, Dynamical Systems, and Computation, UC Santa Barbara",1,0.018674136321195144,Other,Other / Unknown
+558,Brookhaven National Lab,1,0.018674136321195144,USA,USA
+559,University of Arizona,1,0.018674136321195144,USA,USA
+560,Southwest University,1,0.018674136321195144,Other,Other / Unknown
+561,1VUNO Inc,1,0.018674136321195144,Other,Other / Unknown
+562,College of Computer Science and Artificial Intelligence,1,0.018674136321195144,Other,Other / Unknown
+563,University of South California,1,0.018674136321195144,Other,Other / Unknown
+564,"Shenzhen Research Institute of Big Data, Shenzhen, China",1,0.018674136321195144,Other,Other / Unknown
+565,State Key Laboratory of Precision and Intelligent Chemistry,1,0.018674136321195144,Other,Other / Unknown
+566,"Criteo AI Lab, Paris, France, LASTIG, Universit´e Gustave Eiffel, IGN-ENSG, F-94160 Saint-Mand´e",1,0.018674136321195144,Other,Other / Unknown
+567,DreamSports,1,0.018674136321195144,Other,Other / Unknown
+568,I2DB,1,0.018674136321195144,Other,Other / Unknown
+569,University of Zürich,1,0.018674136321195144,Other,Other / Unknown
+570,ChimerAI,1,0.018674136321195144,Other,Other / Unknown
+571,"HSE University, Russia",1,0.018674136321195144,Other,Other / Unknown
+572,Athena Research Center,1,0.018674136321195144,Other,Other / Unknown
+573,"University of Dundee, United Kingdom",1,0.018674136321195144,Other,Other / Unknown
+574,Kent State University,1,0.018674136321195144,Other,Other / Unknown
+575,Department of Data Science and Artificial Intelligence,1,0.018674136321195144,Other,Other / Unknown
+576,"AXXX, Center for AI-driven Drug Design",1,0.018674136321195144,Other,Other / Unknown
+577,Lawrence Livermore National Lab,1,0.018674136321195144,USA,USA
+578,Department of Physics,1,0.018674136321195144,Other,Other / Unknown
+579,Reichman University,1,0.018674136321195144,Other,Other / Unknown
+580,University of Passau,1,0.018674136321195144,Other,Other / Unknown
+581,University of Texas at Arlington,1,0.018674136321195144,Other,Other / Unknown
+582,Aleph Alpha Research,1,0.018674136321195144,Other,Other / Unknown
+583,Beijing University of Posts and Telecom,1,0.018674136321195144,Other,Other / Unknown
+584,Fujitsu Research,1,0.018674136321195144,Other,Other / Unknown
+585,"Universitat Polit`ecnica de Catalunya, Spain",1,0.018674136321195144,Other,Other / Unknown
+586,"SDU Metaverse Lab, University of Southern Denmark",1,0.018674136321195144,Other,Other / Unknown
+587,CS Department,1,0.018674136321195144,Other,Other / Unknown
+588,"East China University of Science and Technology, Datawhale Org",1,0.018674136321195144,Other,Other / Unknown
+589,"University of Genoa, Italy",1,0.018674136321195144,Other,Other / Unknown
+590,"University of Nevada, Reno, USA",1,0.018674136321195144,Other,Other / Unknown
+591,"Eastern Institute of Tech, Ningbo",1,0.018674136321195144,China,China (Mainland)
+592,"1Brown University, 2UT Austin, 3Carnegie Mellon University, 4Technion",1,0.018674136321195144,Other,Other / Unknown
+593,"Nanyang Technological University1, Southeast University2",1,0.018674136321195144,Other,Other / Unknown
+594,University of Genoa,1,0.018674136321195144,Other,Other / Unknown
+595,Oakland University,1,0.018674136321195144,Other,Other / Unknown
+596,Qiyuan Lab,1,0.018674136321195144,Other,Other / Unknown
+597,CAS Institute of Software,1,0.018674136321195144,China,China (Mainland)
+598,University of Luxemburg,1,0.018674136321195144,Other,Other / Unknown
+599,Sibylle Hess,1,0.018674136321195144,Other,Other / Unknown
+600,"Physics, Computer Science",1,0.018674136321195144,Other,Other / Unknown
+601,"University of Munich (LMU), Munich Center of Machine Learning",1,0.018674136321195144,Other,Other / Unknown
+602,Carleton University,1,0.018674136321195144,Other,Other / Unknown
+603,"State Key Laboratory of Multimedia Information Processing, School of Computer Science",1,0.018674136321195144,Other,Other / Unknown
+604,DP Technology,1,0.018674136321195144,Other,Other / Unknown
+605,Chongqing Technology and Business University,1,0.018674136321195144,Other,Other / Unknown
+606,OmnAI Lab,1,0.018674136321195144,Other,Other / Unknown
+607,Technische Universität Carolo-Wilhelmina zu Braunschweig,1,0.018674136321195144,Other,Other / Unknown
+608,Wondeur AI,1,0.018674136321195144,Other,Other / Unknown
+609,"θMicrosoft Research, New York ζUniversity of Pennsylvania",1,0.018674136321195144,Other,Other / Unknown
+610,Emory University,1,0.018674136321195144,USA,USA
+611,Shanghai Maritime University,1,0.018674136321195144,Other,Other / Unknown
+612,National Key Laboratory of Human-Machine Hybrid Augmented Intelligence,1,0.018674136321195144,Other,Other / Unknown
+613,"Krutrim AI, Bangalore, India",1,0.018674136321195144,Other,Other / Unknown
+614,Department of Electrical and Electronic Engineering & I-X,1,0.018674136321195144,Other,Other / Unknown
+615,Helixon US Inc,1,0.018674136321195144,Other,Other / Unknown
+616,Department of Data Science,1,0.018674136321195144,Other,Other / Unknown
+617,National and Kapodistrian University of Athens,1,0.018674136321195144,Other,Other / Unknown
+618,"LTCI, T´el´ecom Paris, Institut Polytechnique de Paris, France",1,0.018674136321195144,Other,Other / Unknown
+619,"Applied AI Institute, Moscow, Russia, Applied AI Institute, Moscow, Russia",1,0.018674136321195144,Other,Other / Unknown
+620,"2 UniVie Doctoral School Computer Science, University of Vienna, Vienna, Austria",1,0.018674136321195144,Other,Other / Unknown
+621,Hugging Face,1,0.018674136321195144,USA,USA
+622,Université Claude Bernard Lyon 1,1,0.018674136321195144,Other,Other / Unknown
+623,Oracle,1,0.018674136321195144,USA,USA
+624,NII LLMC,1,0.018674136321195144,Other,Other / Unknown
+625,"Keerbergen, Belgium",1,0.018674136321195144,Other,Other / Unknown
+626,Shenzhen Loop Area Institute (SLAI),1,0.018674136321195144,Other,Other / Unknown
+627,"Shanghai Normal University, Shanghai Key Laboratory of Computer Software Testing and Evaluating",1,0.018674136321195144,Other,Other / Unknown
+628,Washington State University,1,0.018674136321195144,Other,Other / Unknown
+629,"NVIDIA1, University of Warsaw2",1,0.018674136321195144,Other,Other / Unknown
+630,University of Texas at El Paso,1,0.018674136321195144,Other,Other / Unknown
+631,Institute for Machine Learning,1,0.018674136321195144,Other,Other / Unknown
+632,Communication U. of China,1,0.018674136321195144,China,China (Mainland)
+633,Department of Statistics,1,0.018674136321195144,Other,Other / Unknown
+634,Poetiq AI,1,0.018674136321195144,Other,Other / Unknown
+635,"Chongqing Key Laboratory of Computational Intelligence, Department of Computer Science and Engineering",1,0.018674136321195144,Other,Other / Unknown
+636,"University of Osaka, Japan, National Institute of Information and Communications Technology, Japan",1,0.018674136321195144,Other,Other / Unknown
+637,"Kyushu University, Fukuoka, Japan",1,0.018674136321195144,Other,Other / Unknown
+638,Concordia University,1,0.018674136321195144,Canada,Canada
+639,Beijing Electronic Science and Technology Institute,1,0.018674136321195144,Other,Other / Unknown
+640,Department of Chemical and Biological Engineering,1,0.018674136321195144,Other,Other / Unknown
+641,RWTH Aachen University,1,0.018674136321195144,Other,Other / Unknown
+642,"Atlanta, GA 30308, USA",1,0.018674136321195144,Other,Other / Unknown
+643,Harokopio University of Athens,1,0.018674136321195144,Other,Other / Unknown
+644,"Università di Trento, Trento, Italy, Interdepartmental Robotics Labs (IDRA), Trento, Italy",1,0.018674136321195144,Other,Other / Unknown
+645,Guangxi Colleges and Universities Key Laboratory,1,0.018674136321195144,Other,Other / Unknown
+646,Mohammed VI Polytechnic University,1,0.018674136321195144,Other,Other / Unknown
+647,Leiden University,1,0.018674136321195144,Other,Other / Unknown
+648,Center of Data Science and Artificial Intelligence & School of Engineering and,1,0.018674136321195144,Other,Other / Unknown
+649,"DepartmentofElectronicEngineering,TsinghuaUniversity2BeijingNationalResearchCenterforInformationScienceandTechnology(BNRist),China3NationalEngineeringResearchCenterofDangerousArticlesandExplosivesDetection",1,0.018674136321195144,Other,Other / Unknown
+650,"University of California, San Francisco",1,0.018674136321195144,Other,Other / Unknown
+651,Atlassian,1,0.018674136321195144,Other,Other / Unknown
+652,Shantanu Gupta,1,0.018674136321195144,Other,Other / Unknown
+653,"Institute for Data Science in Mechanical Engineering, RWTH Aachen University, Germany",1,0.018674136321195144,Other,Other / Unknown
+654,ÉTS Montréal,1,0.018674136321195144,Canada,Canada
+655,"FusionBrain Lab, AXXX, Moscow, Russia",1,0.018674136321195144,Other,Other / Unknown
+656,Instituto Superior Técnico,1,0.018674136321195144,Portugal,Other Europe
+657,Czech Republic,1,0.018674136321195144,Other,Other / Unknown
+658,HSE University,1,0.018674136321195144,Other,Other / Unknown
+659,"KIOS Research and Innovation Center of Excellence, University of Cyprus, Nicosia, Cyprus, Department of Electrical and Computer Engineering, University of Cyprus, Nicosia, Cyprus",1,0.018674136321195144,Other,Other / Unknown
+660,Cohere,1,0.018674136321195144,Canada,Canada
+661,Yeshiva University,1,0.018674136321195144,Other,Other / Unknown
+662,ECE &,1,0.018674136321195144,Other,Other / Unknown
+663,TELUS Digital,1,0.018674136321195144,Other,Other / Unknown
+664,"V alence Labs, Recursion",1,0.018674136321195144,Other,Other / Unknown
+665,University of Glasgow,1,0.018674136321195144,UK,UK
+666,Tuebingen AI Center,1,0.018674136321195144,Other,Other / Unknown
+667,"State Key Laboratory of Precision Measurement Technology and Instrument, Department of",1,0.018674136321195144,Other,Other / Unknown
+668,Accenture,1,0.018674136321195144,USA,USA
+669,"Data Science & Artificial Intelligence Research Institute, China Unicom, Unicom Data Intelligence, China Unicom",1,0.018674136321195144,Other,Other / Unknown
+670,Spotify,1,0.018674136321195144,Sweden,Other Europe
+671,Lumos AI,1,0.018674136321195144,Other,Other / Unknown
+672,Deepeleph Intelligent Technology,1,0.018674136321195144,Other,Other / Unknown
+673,Jeonbuk National University,1,0.018674136321195144,Other,Other / Unknown
+674,Department of Chemical Engieering,1,0.018674136321195144,Other,Other / Unknown
+675,Stevens Institute of Technology,1,0.018674136321195144,USA,USA
+676,"Knight Foundation School of Computing and Information Sciences, Florida International University",1,0.018674136321195144,Other,Other / Unknown
+677,Jiangxing Intelligence Inc,1,0.018674136321195144,Other,Other / Unknown
+678,"FusionBrain Lab, AXXX, Moscow, Russia, Applied AI Institute, Moscow, Russia",1,0.018674136321195144,Other,Other / Unknown
+679,"AXXX, Moscow, Russia",1,0.018674136321195144,Other,Other / Unknown
+680,DataCanvas,1,0.018674136321195144,Other,Other / Unknown
+681,Clemson University,1,0.018674136321195144,Other,Other / Unknown
+682,SK Telecom,1,0.018674136321195144,South Korea,South Korea
+683,MOEKLINNS Lab,1,0.018674136321195144,Other,Other / Unknown
+684,"Xi’an Jiaotong University & SGIT AI Lab, State Grid Corporation of China",1,0.018674136321195144,Other,Other / Unknown
+685,Leuphana University L¨uneburg,1,0.018674136321195144,Other,Other / Unknown
+686,Shanghai Key Laboratory of Intelligent Information Processing,1,0.018674136321195144,Other,Other / Unknown
+687,DeepAuto.ai,1,0.018674136321195144,Other,Other / Unknown
+688,"Freie Universit at Berlin, Berlin, Germany",1,0.018674136321195144,Other,Other / Unknown
+689,"Center for Processing Speech and Images, Department of ESAT",1,0.018674136321195144,Other,Other / Unknown
+690,"Perth, W A 6009",1,0.018674136321195144,Other,Other / Unknown
+691,"¨Orebro University, Sweden",1,0.018674136321195144,Other,Other / Unknown
+692,HSE Moscow,1,0.018674136321195144,Russia,Other Europe
+693,Florida State University,1,0.018674136321195144,Other,Other / Unknown
+694,Hunan University,1,0.018674136321195144,China,China (Mainland)
+695,"Zuse Institute Berlin, Technical University of Berlin",1,0.018674136321195144,Other,Other / Unknown
+696,"Mohammed bin Zayed University of Artificial Intelligence, Abu Dhabi, UAE",1,0.018674136321195144,Other,Other / Unknown
+697,"Computational Engineering Lab, Empa, Switzerland",1,0.018674136321195144,Other,Other / Unknown
+698,"Institute of High Performance Computing, Agency for Science, Technology and Research, Singapore",1,0.018674136321195144,Other,Other / Unknown
+699,Queen’s University Belfast,1,0.018674136321195144,Other,Other / Unknown
+700,"Technische Universit¨at Wien, Telef´onica Scientific Research",1,0.018674136321195144,Other,Other / Unknown
+701,"♠ Faculty of Information Science and Technology, Hokkaido University, Japan",1,0.018674136321195144,Other,Other / Unknown
+702,Keio University,1,0.018674136321195144,Other,Other / Unknown
+703,Sandia National Laboratories,1,0.018674136321195144,Other,Other / Unknown
+704,Binghamton University,1,0.018674136321195144,Other,Other / Unknown
+705,"Z¨urich, Switzerland",1,0.018674136321195144,Other,Other / Unknown
+706,"University of Kassel, Germany",1,0.018674136321195144,Other,Other / Unknown
+707,ENSAE Paris,1,0.018674136321195144,France,France
+708,Munich Center for Machine Learning (MCML),1,0.018674136321195144,Other,Other / Unknown
+709,"Uppsala University, Sweden",1,0.018674136321195144,Other,Other / Unknown
+710,University of Ioannina,1,0.018674136321195144,Other,Other / Unknown
+711,Fondazione Bruno Kessler,1,0.018674136321195144,Other,Other / Unknown
+712,NEC Corporation,1,0.018674136321195144,Other,Other / Unknown
+713,Intesa Sanpaolo AI Research,1,0.018674136321195144,Other,Other / Unknown
+714,"University of T¨ubingen, T¨ubingen AI Center",1,0.018674136321195144,Other,Other / Unknown
+715,The Engineering& Technical College of Chengdu University of Technology,1,0.018674136321195144,Other,Other / Unknown
+716,Guangzhou University,1,0.018674136321195144,China,China (Mainland)
+717,Kakao Corp,1,0.018674136321195144,Other,Other / Unknown
+718,Great Bay University,1,0.018674136321195144,China,China (Mainland)
+719,ELLIS Alicante,1,0.018674136321195144,Other,Other / Unknown
+720,"Guangdong Provincial Key Laboratory of Computational AI Models and Cognitive Intelligence, Engineering Research Center of the Ministry of Education on Health Intelligent Perception and",1,0.018674136321195144,Other,Other / Unknown
+721,China Mobile Research Institute,1,0.018674136321195144,Other,Other / Unknown
+722,The Oden Institute,1,0.018674136321195144,Other,Other / Unknown
+723,Max Planck Institute for Mathematics in the Sciences,1,0.018674136321195144,Other,Other / Unknown
+724,Relation Therapeutics,1,0.018674136321195144,Other,Other / Unknown
+725,FAR.AI,1,0.018674136321195144,Other,Other / Unknown
+726,"Xi’an Jiaotong University, Xi’an 710049, China",1,0.018674136321195144,Other,Other / Unknown
+727,AIGEN Sciences,1,0.018674136321195144,Other,Other / Unknown
+728,"Beijing University of Posts and Telecommunications, China, Beijing Digital Native Digital City Research Center, China",1,0.018674136321195144,Other,Other / Unknown
+729,Department of Informatics,1,0.018674136321195144,Other,Other / Unknown
+730,University of Sheffield,1,0.018674136321195144,UK,UK
+731,"insitro, South San Francisco, CA 94080, USA",1,0.018674136321195144,Other,Other / Unknown
+732,Hokkaido University,1,0.018674136321195144,Other,Other / Unknown
+733,"Hanyang University, Seoul, Republic of Korea",1,0.018674136321195144,Other,Other / Unknown
+734,"Institute for Infocomm Research, A",1,0.018674136321195144,Other,Other / Unknown
+735,"πTsinghua University ρHong Kong University of Science and Technology, ϕMicrosoft Research Asia",1,0.018674136321195144,Other,Other / Unknown
+736,Simons Institute,1,0.018674136321195144,Other,Other / Unknown
+737,"Southwestern University of Finance and Economics, Shanghai Academy of AI for Science",1,0.018674136321195144,Other,Other / Unknown
+738,Department of Information Engineering,1,0.018674136321195144,Other,Other / Unknown
+739,"Harbin Institude of Technology, Shenzhen",1,0.018674136321195144,Other,Other / Unknown
+740,Jülich Supercomputing Centre,1,0.018674136321195144,Other,Other / Unknown
+741,Claremont McKenna College,1,0.018674136321195144,Other,Other / Unknown
+742,"University of Tennessee, Knoxville",1,0.018674136321195144,Other,Other / Unknown
+743,"Peking University1, State Key Laboratory of Multimedia Information Processing, Peking University2, Institute for Artificial Intelligence, Peking University3",1,0.018674136321195144,Other,Other / Unknown
+744,Department of Industrial and Systems Engineering,1,0.018674136321195144,Other,Other / Unknown
+745,Goodfire AI,1,0.018674136321195144,Other,Other / Unknown
+746,"cCarnegie Mellon University, mMohamed bin Zayed Univeristy of AI, gGenBio AI, iIntel",1,0.018674136321195144,Other,Other / Unknown
+747,"Delft, Netherlands & Palaiseau, France",1,0.018674136321195144,Other,Other / Unknown
+748,Brigham Young University,1,0.018674136321195144,Other,Other / Unknown
+749,Université Paris-Saclay,1,0.018674136321195144,Other,Other / Unknown
+750,Luma AI,1,0.018674136321195144,USA,USA
+751,"Linköping University, Sweden",1,0.018674136321195144,Other,Other / Unknown
+752,"⟨aQaL⟩Applied Quantum Algorithms, Universiteit Leiden, LIACS, Universiteit Leiden, Niels Bohrweg 1, 2333 CA Leiden, Netherlands",1,0.018674136321195144,Other,Other / Unknown
+753,Aarhus University & Cordulus,1,0.018674136321195144,Other,Other / Unknown
+754,"University of M¨unster, Germany",1,0.018674136321195144,Other,Other / Unknown
+755,"Engineering and Mathematical Sciences, La Trobe University, Melbourne, Australia, Australian Centre for AI and Medical Innovation, La Trobe University, Melbourne, Australia",1,0.018674136321195144,Other,Other / Unknown
+756,"AI Division, KDDI Research, Inc. 2-1-15 Ohara, Fujimino-shi, Saitama 356-8502, Japan",1,0.018674136321195144,Other,Other / Unknown
+757,"Department for AI in Society, Science, and Technology, Zuse Institute Berlin (ZIB), Germany",1,0.018674136321195144,Other,Other / Unknown
+758,Laboratory for Artiﬁcial Intelligence in Design,1,0.018674136321195144,Other,Other / Unknown
+759,InVirtuoLabs,1,0.018674136321195144,Other,Other / Unknown
+760,"Technical University of Dortmund, Germany, Lamarr Institute for Machine Learning and Artificial Intelligence",1,0.018674136321195144,Other,Other / Unknown
+761,"Information Systems and Machine Learning Lab (ISMLL), University of Hildesheim, Germany, VWFS - Data Analysis & Research Center (DARC), University of Hildesheim, Germany",1,0.018674136321195144,Other,Other / Unknown
+762,Institute of Image Processing and Pattern Recognition,1,0.018674136321195144,Other,Other / Unknown
+763,"NC, US",1,0.018674136321195144,Other,Other / Unknown
+764,"Pontificia Universidad Cat´olica de Chile, National Center for Artificial Intelligence (CENIA)",1,0.018674136321195144,Other,Other / Unknown
+765,"Beijing University of Posts and Telecommunications, Beijing, China",1,0.018674136321195144,Other,Other / Unknown
+766,School of Computer Science and Engineering,1,0.018674136321195144,Other,Other / Unknown
+767,CAS Institute of Computing Technology,1,0.018674136321195144,China,China (Mainland)
+768,"University of Warsaw, IDEAS NCBR",1,0.018674136321195144,Other,Other / Unknown
+769,"State Key Laboratory of Human-Machine Hybrid Augmented Intelligence, Computer Vision Center, Barcelona, Spain, Universitat Aut`onoma de Barcelona, Barcelona, Spain",1,0.018674136321195144,Other,Other / Unknown
+770,αAllen Institute for Artificial Intelligence βUniversity of Washington δCohere,1,0.018674136321195144,Other,Other / Unknown
+771,Roboflow,1,0.018674136321195144,Other,Other / Unknown
+772,IPAI &,1,0.018674136321195144,Other,Other / Unknown
+773,AMLab,1,0.018674136321195144,Other,Other / Unknown
+774,Department of Mathematics and Scientific Computing and Imaging (SCI) Institute,1,0.018674136321195144,Other,Other / Unknown
+775,Beijing Advanced Innovation Center for Future Blockchain and Privacy Computing,1,0.018674136321195144,Other,Other / Unknown
+776,"University of York, UK, Department of Elect. Eng., and Computer Science and Eng., Cyprus University of Technology, Cyprus",1,0.018674136321195144,Other,Other / Unknown
+777,"Xi’an Jiaotong University, National Key Laboratory of Human-Machine Hybrid Augmented Intelligence, Xi’an",1,0.018674136321195144,Other,Other / Unknown
+778,University of Ottawa,1,0.018674136321195144,Other,Other / Unknown
+779,Omelet,1,0.018674136321195144,Other,Other / Unknown
+780,right in the RAG-as-a-Service Environment,1,0.018674136321195144,Other,Other / Unknown
+781,SandboxAQ,1,0.018674136321195144,USA,USA
+782,PICO,1,0.018674136321195144,Other,Other / Unknown
+783,"mMicrosoft Research, ωUniversity of Wisconsin-Madison",1,0.018674136321195144,Other,Other / Unknown
+784,Department of Electrical & Computer Engineering,1,0.018674136321195144,Other,Other / Unknown
+785,Department of Computing and Mathematical Sciences,1,0.018674136321195144,Other,Other / Unknown
+786,Shenzhen Polytechnic University,1,0.018674136321195144,Other,Other / Unknown
+787,IIT Delhi,1,0.018674136321195144,India,India
+788,"Miles Team, LAMSADE, Université Paris Dauphine-PSL, Paris, France",1,0.018674136321195144,Other,Other / Unknown
+789,Center for Translational Data Science,1,0.018674136321195144,Other,Other / Unknown
+790,Klleon AI Research,1,0.018674136321195144,Other,Other / Unknown
+791,Shanghai Qi Zhi Institute,1,0.018674136321195144,Other,Other / Unknown
+792,Honda,1,0.018674136321195144,Other,Other / Unknown
+793,"ELLIS Institute T¨ubingen1, LIONS, EPFL2, University of Freiburg3, Max-Planck-Institute for Intelligent Systems4, Prior Labs5",1,0.018674136321195144,Other,Other / Unknown
+794,"Computational Statistics and Machine Learning, Italian Institute of Technology, Genoa, Italy",1,0.018674136321195144,Other,Other / Unknown
+795,Tübingen AI Center,1,0.018674136321195144,Other,Other / Unknown
+796,Xi’an Jiaotong-Liverpool University,1,0.018674136321195144,Other,Other / Unknown
+797,"Beijing University of Posts and Telecommunications, China, Key Laboratory of Trustworthy Distributed Computing and Services, China",1,0.018674136321195144,Other,Other / Unknown
+798,"Artefact Research Center, MICS, CentraleSup´elec, Universit´e Paris-Saclay",1,0.018674136321195144,Other,Other / Unknown
+799,Lenovo,1,0.018674136321195144,China,China (Mainland)
+800,Independent Scholar,1,0.018674136321195144,Other,Other / Unknown
+801,CAS Shenzhen Institute of Advanced Tech,1,0.018674136321195144,China,China (Mainland)
+802,"Copenhagen, Denmark",1,0.018674136321195144,Other,Other / Unknown
+803,"Institut f¨ur Mathematik, Technische Universit¨at Berlin, Germany",1,0.018674136321195144,Other,Other / Unknown
+804,Intel,1,0.018674136321195144,USA,USA
+805,"The University of Osaka, Japan",1,0.018674136321195144,Other,Other / Unknown
+806,"Multidisciplinary Faculty of Nador, Mohammed First University, Oujda 60000, Morocco",1,0.018674136321195144,Other,Other / Unknown
+807,University of Wollongong,1,0.018674136321195144,Other,Other / Unknown
+808,"Lisbon, Portugal",1,0.018674136321195144,Other,Other / Unknown
+809,Department of Economics,1,0.018674136321195144,Other,Other / Unknown
+810,Shanxi University,1,0.018674136321195144,China,China (Mainland)
+811,University of Liverpool,1,0.018674136321195144,UK,UK
+812,Shahjalal U. of Science & Technology,1,0.018674136321195144,Bangladesh,South Asia
+813,"Dresden University of Technology, Faculty of Computer Science, Dresden, Germany, Max Planck Institute of Molecular Cell Biology and Genetics, Dresden, Germany, Center for Systems Biology Dresden, Dresden, Germany, Center for Scalable Data Analytics and Artificial Intelligence ScaDS.AI, Dresden/Leipzig, Germany",1,0.018674136321195144,Other,Other / Unknown
+814,"University of Florence, Media Integration and Communication Center (MICC), Italy",1,0.018674136321195144,Other,Other / Unknown
+815,"AXXX, Moscow, Russia, MTUCI, Moscow, Russia",1,0.018674136321195144,Other,Other / Unknown
+816,Bilibili,1,0.018674136321195144,Other,Other / Unknown
+817,Nantong University,1,0.018674136321195144,Other,Other / Unknown
+818,National Key Laboratory for Multimedia Information Processing,1,0.018674136321195144,Other,Other / Unknown
+819,Amherst College,1,0.018674136321195144,Other,Other / Unknown
+820,Snap,1,0.018674136321195144,USA,USA
+821,School of Electrical Engineering,1,0.018674136321195144,Other,Other / Unknown
+822,PSL Research University,1,0.018674136321195144,Other,Other / Unknown
+823,Shanghai Polytechnic University,1,0.018674136321195144,Other,Other / Unknown
+824,Xinjiang University,1,0.018674136321195144,Other,Other / Unknown
+825,ML Alignment and Theory Scholars,1,0.018674136321195144,Other,Other / Unknown
+826,ML Alignment & Theory Scholars,1,0.018674136321195144,Other,Other / Unknown
+827,"Neuroscience Area, International School for Advanced Studies (SISSA), Trieste (Italy)",1,0.018674136321195144,Other,Other / Unknown
+828,Timaeus,1,0.018674136321195144,Other,Other / Unknown
+829,"Seattle, W A",1,0.018674136321195144,Other,Other / Unknown
+830,Griffith University,1,0.018674136321195144,Australia,Australia & NZ
+831,York University,1,0.018674136321195144,Other,Other / Unknown
+832,Central Conservatory of Music,1,0.018674136321195144,Other,Other / Unknown
+833,University of Agder,1,0.018674136321195144,Other,Other / Unknown
+834,Center of Excellence for Molecular Prediction of IBD (PREDICT),1,0.018674136321195144,Other,Other / Unknown
+835,Ravindran Kannan,1,0.018674136321195144,Other,Other / Unknown
+836,Institute of Mathematics,1,0.018674136321195144,Other,Other / Unknown
+837,College of the Holy Cross,1,0.018674136321195144,Other,Other / Unknown
+838,Thales cortAIx Lab,1,0.018674136321195144,Other,Other / Unknown
+839,SAP,1,0.018674136321195144,Other,Other / Unknown
+840,Pluralis Research,1,0.018674136321195144,Other,Other / Unknown
+841,MediaTek Research,1,0.018674136321195144,Other,Other / Unknown
+842,"Computer Vision Group Jena, Friedrich Schiller University Jena",1,0.018674136321195144,Other,Other / Unknown
+843,"Institute of Data Science, German Aerospace Center (DLR)",1,0.018674136321195144,Other,Other / Unknown
+844,λMBZUAI ξMonash University,1,0.018674136321195144,Other,Other / Unknown
+845,Data Governance Department,1,0.018674136321195144,Other,Other / Unknown
+846,"Goethe University Frankfurt, Frankfurt am Main, Germany, The Hessian Center for Artiﬁcial Intelligence (hessian.AI), Darmstadt, Germany",1,0.018674136321195144,Other,Other / Unknown
+847,Korea Institute of Oriental Medicine,1,0.018674136321195144,Other,Other / Unknown
+848,"Dalle Molle Institute for Artificial Intelligence (IDSIA) - USI/SUPSI, Switzerland",1,0.018674136321195144,Other,Other / Unknown
+849,Hainan University,1,0.018674136321195144,Other,Other / Unknown
+850,"Southwest Jiaotong University, Institute for Infocomm Research (I2R), A",1,0.018674136321195144,Other,Other / Unknown
+851,Indian Statistical Institute,1,0.018674136321195144,Other,Other / Unknown
+852,"{brendan, noel, atiyeh, rasa, zhaoyan",1,0.018674136321195144,Other,Other / Unknown
+853,"Universit´e Paris-Saclay, CEA, List",1,0.018674136321195144,Other,Other / Unknown
+854,"Key Laboratory of Computing Power Network and Information Security, Ministry of Education, Shandong Provincial Key Laboratory of Computing Power Internet and Service Computing",1,0.018674136321195144,Other,Other / Unknown
+855,Department of Sciences and Methods for Engineering,1,0.018674136321195144,Other,Other / Unknown
+856,Nanjing Tech University,1,0.018674136321195144,Other,Other / Unknown
+857,"The Laboratory for Human-Centered AI, Institute for Ethics in AI",1,0.018674136321195144,Other,Other / Unknown
+858,"Warsaw University of Technology, IDEAS Research Institute",1,0.018674136321195144,Other,Other / Unknown
+859,"Machine Learning Group, University of Cambdridge",1,0.018674136321195144,Other,Other / Unknown
+860,"Carleton University1, University of British Columbia2, Vector Institute3",1,0.018674136321195144,Other,Other / Unknown
+861,"Aiphabet, Inc.",1,0.018674136321195144,Other,Other / Unknown
+862,"HSE University, Faculty of Computer Science",1,0.018674136321195144,Other,Other / Unknown
+863,U. of Technology Nuremberg,1,0.018674136321195144,Germany,Germany
+864,"National Institute of Informatics, The Graduate University for Advanced Studies, SOKENDAI",1,0.018674136321195144,Other,Other / Unknown
+865,"Ruya AI, M42",1,0.018674136321195144,Other,Other / Unknown
+866,"Politecnico di Torino, Turin, Italy",1,0.018674136321195144,Other,Other / Unknown
+867,Chongqing University,1,0.018674136321195144,China,China (Mainland)
+868,ETH AI Center,1,0.018674136321195144,Other,Other / Unknown
+869,"University of Colorado, Boulder",1,0.018674136321195144,Other,Other / Unknown
+870,"WeBank AI Lab, Universiti Malaya",1,0.018674136321195144,Other,Other / Unknown
+871,"Megagon Labs, US",1,0.018674136321195144,Other,Other / Unknown
+872,"Technical University of Berlin, Heinrich-Heine-University Düsseldorf",1,0.018674136321195144,Other,Other / Unknown
+873,"University of Nevada, Reno, Oak Ridge National Laboratory",1,0.018674136321195144,Other,Other / Unknown
+874,Marburg University,1,0.018674136321195144,Other,Other / Unknown
+875,Max Planck Schools,1,0.018674136321195144,Other,Other / Unknown
+876,Hitotsubashi University,1,0.018674136321195144,Other,Other / Unknown
+877,QETH Zürich RUniversity of Copenhagen X CHI-FRO,1,0.018674136321195144,Other,Other / Unknown
+878,Huazhong University of Science,1,0.018674136321195144,Other,Other / Unknown
+879,"Beijing University of Posts and Telecommunications1, Peng Cheng Laboratory2",1,0.018674136321195144,Other,Other / Unknown
+880,"Leibniz University Hannover, Institute of Automatic Control, Hannover, Germany",1,0.018674136321195144,Other,Other / Unknown
+881,International School of Advanced Studies (SISSA),1,0.018674136321195144,Other,Other / Unknown
+882,"University of Vienna, Vienna, Austria, UniVie Doctoral School Computer Science, University of Vienna, Vienna, Austria",1,0.018674136321195144,Other,Other / Unknown
+883,"Vector Institute, Toronto, Canada",1,0.018674136321195144,Other,Other / Unknown
+884,Turing Inc,1,0.018674136321195144,Other,Other / Unknown
+885,Morgan Stanley,1,0.018674136321195144,USA,USA
+886,"Beijing Key Laboratory for Multimodal Collaboration and Advanced Application, Institute of, University of the Chinese Academy of",1,0.018674136321195144,Other,Other / Unknown
+887,National Engineering Research Center for Mobile Network Technologies,1,0.018674136321195144,Other,Other / Unknown
+888,Chandra Family Department of Electrical and Computer Engineering,1,0.018674136321195144,Other,Other / Unknown
+889,IDEAS NCBR,1,0.018674136321195144,Other,Other / Unknown
+890,"Ume˚a University, Sweden",1,0.018674136321195144,Other,Other / Unknown
+891,"1Tsinghua University, 2Shanghai Qi Zhi Institute, 3Peking University",1,0.018674136321195144,Other,Other / Unknown
+892,"Xi’an Jiaotong University, Xi’an, Shaanxi, China",1,0.018674136321195144,Other,Other / Unknown
+893,"Technical University of Darmstadt, Hessian.AI",1,0.018674136321195144,Other,Other / Unknown
+894,Sage Bionetworks,1,0.018674136321195144,Other,Other / Unknown
+895,"University of Szeged, Hungary",1,0.018674136321195144,Other,Other / Unknown
+896,"Baylor University, Waco, Texas",1,0.018674136321195144,Other,Other / Unknown
+897,https://github.com/JIA-Lab-research/VisionReasoner,1,0.018674136321195144,Other,Other / Unknown
+898,National Engineering Research Center for Big Data Technology and System,1,0.018674136321195144,Other,Other / Unknown
+899,Uniphore,1,0.018674136321195144,Other,Other / Unknown
+900,"Create Way, #08-01 Create Tower, Singapore 138602",1,0.018674136321195144,Other,Other / Unknown
+901,"University of Bologna, Italy",1,0.018674136321195144,Other,Other / Unknown
+902,Germany,1,0.018674136321195144,Other,Other / Unknown
+903,"Heiko Ludwig2,Holger Boche 1",1,0.018674136321195144,Other,Other / Unknown
+904,"Saarbr¨ucken, Germany",1,0.018674136321195144,Other,Other / Unknown
+905,"Agency for Science, Technology and Research, Institute for Infocomm Research",1,0.018674136321195144,Other,Other / Unknown
+906,"IDEAS Research Institute, Institute of Informatics, University of Warsaw, NASK - National Research Institute, Adam Mickiewicz University, Pozna´n, University of Innsbruck",1,0.018674136321195144,Other,Other / Unknown
+907,Department of Electronic Engineering,1,0.018674136321195144,Other,Other / Unknown
+908,Technical University of Darmstadt 2hessian.AI,1,0.018674136321195144,Other,Other / Unknown
+909,University of Tulsa,1,0.018674136321195144,USA,USA
+910,"Computational Imaging Lab, AXXX",1,0.018674136321195144,Other,Other / Unknown
+911,"Pacific Northwest National Laboratory1, Rice University2, Meta3, University of Washington4",1,0.018674136321195144,Other,Other / Unknown
