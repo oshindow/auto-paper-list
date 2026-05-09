@@ -86,10 +86,15 @@ _TITLE_STOPWORDS = {"a", "an", "the", "of", "in", "on", "for", "with",
 
 def _is_title_line(s: str) -> bool:
     """A title line is mostly uppercase letters, or title-case English with stopwords."""
-    # Reject lines that look like affil markers / start with "1Inst..." but
-    # NOT titles like "3D-AWARE..." (a digit followed by a capital and a dash).
-    # The marker pattern is: digit, then a capitalized word with at least one lowercase.
+    # Reject lines that look like affil markers — but NOT titles starting with a
+    # number like "3D-AWARE...".
+    # Heuristic: a digit followed by a capital and a lowercase letter is a marker
+    # ("1Meta", "2University"). A digit followed by an all-caps acronym in a
+    # short line (e.g. "2AITHYRA", "3KAIST") is also a marker, not a title.
+    words = s.split()
     if re.match(r"^\s*\d{1,2}\s*[A-ZÀ-Ý][a-zà-ÿ]", s):
+        return False
+    if re.match(r"^\s*\d{1,2}\s*[A-ZÀ-Ý]", s) and len(words) <= 3:
         return False
     # Also reject lines with multiple digit-marker chunks (e.g. "1A 2B 3C")
     if len(re.findall(r"\b\d{1,2}\s*[A-ZÀ-Ý]", s)) >= 3:
@@ -106,13 +111,19 @@ def _is_title_line(s: str) -> bool:
     if len(alpha) < 5:
         return False
     upper_ratio = sum(1 for c in alpha if c.isupper()) / len(alpha)
-    if upper_ratio >= 0.60:
+    # Multi-word all-caps lines are titles ("TOPOLOGICAL FLOW MATCHING").
+    if len(words) >= 2 and upper_ratio >= 0.60:
+        return True
+    # A single-word all-caps line is a title only if it's long enough (>12 chars).
+    # Short single-word all-caps tokens are typically institution acronyms
+    # (AITHYRA, KAIST, MBZUAI, EPFL, MIT) — NOT titles.
+    if len(words) == 1 and upper_ratio >= 0.60 and len(s.strip()) > 12:
         return True
     # Title-case English title — has multiple short stopwords + at least some caps
-    words = re.findall(r"[A-Za-z]+", s)
-    if not words:
+    word_tokens = re.findall(r"[A-Za-z]+", s)
+    if not word_tokens:
         return False
-    stop_count = sum(1 for w in words if w.lower() in _TITLE_STOPWORDS)
+    stop_count = sum(1 for w in word_tokens if w.lower() in _TITLE_STOPWORDS)
     if stop_count >= 2 and upper_ratio >= 0.18:
         return True
     return False
@@ -141,13 +152,15 @@ def _looks_like_affil_line(s: str) -> bool:
     # Reject only emails (`name@domain.tld`); plain '@' as in "CompVis @ LMU Munich" is fine.
     if re.search(r"\S+@\S+\.\w+", s):
         return False
-    # Reject footnote lines like "∗Equal contribution †Corresponding author"
-    if _is_footnote_text(s):
-        return False
-    # Numbered marker prefix (but NOT "1 INTRODUCTION")
+    # Numbered marker prefix (but NOT "1 INTRODUCTION") — accept these as affil
+    # lines even if they contain inline footnote text; _split_affiliations will
+    # drop the footnote chunks downstream.
     m = re.match(r"^\s*(\d{1,2})\s*([A-Z]|´|˜|´´|´´´|École|Ecole|Universit|Department|School|College|Institute)", s)
     if m and not re.match(r"^\d{1,2}\s+(I[Nn][Tt][Rr]|Introduction|RELATED|Method|Background)", s):
         return True
+    # Otherwise reject pure footnote lines like "∗Equal contribution †Corresponding author"
+    if _is_footnote_text(s):
+        return False
     # Lines that start with a glyph marker (∗, †, ‡) AND have institution-like content.
     # If it doesn't have institution keywords, treat as a footnote.
     if re.match(r"^\s*" + MARKER_GLYPH_RE + r"\s*[A-ZÀ-Ý]", s):
@@ -182,10 +195,11 @@ def _split_affiliations(s: str) -> list[tuple[str, str]]:
     silently dropped — those are author-credit notes, not institutions.
     """
     s = s.strip().rstrip(",.")
-    # Split before each digit-marker followed by a capital letter, AND before
-    # each glyph-marker so we can drop those chunks cleanly.
+    # Split before each digit-marker followed by a capital letter (with optional
+    # whitespace between), AND before each glyph-marker so we can drop those
+    # chunks cleanly. Handles both "1Inst" and "1 Inst" layouts.
     out = re.split(
-        r"(?=\b\d{1,2}(?=[A-ZÀ-Ý´]))|(?=\s\d{1,2}\s+[A-ZÀ-Ý´])"
+        r"(?=\b\d{1,2}\s*[A-ZÀ-Ý´])"
         r"|(?=" + MARKER_GLYPH_RE + r")",
         s,
     )
@@ -279,6 +293,15 @@ def _parse_pattern_a(head: list[str]) -> dict | None:
 
     if not author_lines or not affil_lines:
         return None
+
+    # Reject if an "author"-classified line appears after the first "affil" —
+    # that's an interleaved name/affil structure (Pattern C/D), not Pattern A.
+    saw_affil = False
+    for c in classes:
+        if c == "affil":
+            saw_affil = True
+        elif c == "author" and saw_affil:
+            return None
 
     # Parse author markers
     authors: list[tuple[str, list[str]]] = []
@@ -605,6 +628,11 @@ def _is_name_line(s: str) -> bool:
     s2 = re.sub(r"[*†‡§¶∗⋆⋄♯♭♮]+\s*$", "", s.strip())
     if _INST_KW_RE.search(s2):
         return False
+    # All-caps single-word lines are institution acronyms (AITHYRA, MIT, KAIST, etc.),
+    # not names.
+    words = s2.split()
+    if len(words) == 1 and s2.isupper() and len(s2) >= 2:
+        return False
     return bool(_NAME_LINE_RE.match(s2))
 
 
@@ -713,7 +741,15 @@ def _parse_pattern_d(head: list[str]) -> dict | None:
         return None
     if any(_looks_purely_authors(s) for s in affil_lines):
         return None
-    if any(_is_title_line(s) for s in affil_lines):
+    # If any of the *name* slots looks like a title fragment (multi-word all-caps),
+    # the alternating-pair structure has broken down — reject.
+    if any(_is_title_line(s) for s in name_lines):
+        return None
+    # If any *name* slot has an institution keyword (University, Department,
+    # Institute, etc.), the alternation is broken — names don't look like that.
+    # This catches cases where each author has a multi-line affiliation, which
+    # Pattern E handles instead.
+    if any(_INST_KW_RE.search(s) for s in name_lines):
         return None
 
     # Stricter: every affil_line must look like an actual affiliation
@@ -772,6 +808,90 @@ def _parse_pattern_d(head: list[str]) -> dict | None:
 
 
 # ---------------------------------------------------------------------------
+# Pattern E — per-author stanzas with multi-line affiliations (no emails)
+# ---------------------------------------------------------------------------
+def _parse_pattern_e(head: list[str]) -> dict | None:
+    """Per-author stanzas separated by name-line transitions. Each stanza
+    has 1 name line followed by 1+ affiliation lines. Handles cases like:
+
+        Lars Holdijk
+        Department of Computer Science
+        University of Oxford
+        Michael Bronstein
+        Department of Computer Science
+        University of Oxford,
+        AITHYRA
+
+    Where Pattern D's strict 1:1 alternation can't apply because authors
+    have multi-line affiliations.
+    """
+    i = 0
+    while i < len(head) and _is_title_line(head[i]):
+        i += 1
+    rest = head[i:]
+    # Drop email lines — they don't help us segment stanzas in this pattern.
+    rest = [s for s in rest if not re.search(r"\S+@\S+\.\w+", s)]
+
+    if len(rest) < 4:
+        return None
+
+    # Group: a name line starts a new stanza, non-name lines extend the
+    # current stanza's affiliation list.
+    stanzas: list[list[str]] = []
+    current: list[str] = []
+    for s in rest:
+        if _is_name_line(s):
+            if current:
+                stanzas.append(current)
+            current = [s]
+        else:
+            if current:
+                current.append(s)
+    if current:
+        stanzas.append(current)
+
+    valid = [st for st in stanzas if len(st) >= 2]
+    if len(valid) < 2:
+        return None
+
+    # Sanity: at least one affil line per stanza must contain an institution
+    # keyword OR be a known institution acronym; otherwise the structure is
+    # probably misclassified.
+    inst_match = 0
+    for st in valid:
+        if any(_INST_KW_RE.search(al) for al in st[1:]):
+            inst_match += 1
+    if inst_match < max(2, len(valid) * 2 // 3):
+        return None
+
+    authors: list[str] = []
+    per_author_affils: list[list[str]] = []
+    for st in valid:
+        name = re.sub(r"[*†‡§¶∗⋆⋄♯♭♮]+\s*$", "", st[0]).strip()
+        affils: list[str] = []
+        for al in st[1:]:
+            cleaned = _clean_affil_text(al)
+            if cleaned and not _is_footnote_text(cleaned):
+                affils.append(cleaned)
+        if not affils:
+            continue
+        authors.append(name)
+        per_author_affils.append(affils)
+
+    if len(authors) < 2 or not per_author_affils:
+        return None
+    return {
+        "success": True,
+        "authors": authors,
+        "affiliations_per_author": per_author_affils,
+        "institutions_set": list(dict.fromkeys(
+            [v for vs in per_author_affils for v in vs]
+        )),
+        "pattern": "E",
+    }
+
+
+# ---------------------------------------------------------------------------
 # Top-level dispatch
 # ---------------------------------------------------------------------------
 def parse_pdf(path: str | Path) -> dict:
@@ -786,6 +906,7 @@ def parse_pdf(path: str | Path) -> dict:
         (_parse_pattern_a, "A"),
         (_parse_pattern_c, "C"),
         (_parse_pattern_d, "D"),
+        (_parse_pattern_e, "E"),
         (_parse_pattern_b, "B"),
     ]:
         res = parser(head)

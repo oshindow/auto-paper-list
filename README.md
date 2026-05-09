@@ -7,7 +7,7 @@ This avoids the OpenReview-profile drift problem (where authors' *current* job a
 > **Follow me for more analysis like this, plus AI engineering & research insights:**
 >
 > - LinkedIn — **[linkedin.com/in/dmytrolopushanskyy](https://linkedin.com/in/dmytrolopushanskyy)**
-> - GitHub — **[github.com/dmytrolopushanskyy](https://github.com/dmytrolopushanskyy)**
+> - GitHub — **[github.com/DmytroLopushanskyy](https://github.com/DmytroLopushanskyy)**
 >
 > If this dataset or the pipeline is useful to your work, a follow / star is the easiest way to encourage me to keep publishing this kind of analysis.
 
@@ -58,7 +58,7 @@ Each rectangle is one institution sized by the number of accepted papers it appe
 ### Just regenerate the chart
 
 ```bash
-git clone https://github.com/dmytrolopushanskyy/iclr2026-affiliations.git
+git clone https://github.com/DmytroLopushanskyy/iclr2026-affiliations.git
 cd iclr2026-affiliations
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
@@ -135,6 +135,6 @@ Result: **96% of papers parse successfully**; the remaining 4% fall back to Open
 If you build something on top of this, ping me — I'm always interested in seeing where this kind of pipeline gets used. And if you want more posts like this (research-engineering deep dives, applied AI analysis, papers I'm reading), the best place is:
 
 - LinkedIn — **[linkedin.com/in/dmytrolopushanskyy](https://linkedin.com/in/dmytrolopushanskyy)**
-- GitHub — **[github.com/dmytrolopushanskyy](https://github.com/dmytrolopushanskyy)**
+- GitHub — **[github.com/DmytroLopushanskyy](https://github.com/DmytroLopushanskyy)**
 
 — Dmytro Lopushanskyy
