@@ -12,7 +12,7 @@ Currently supports paper PDFs from **arXiv**, plus a subset of common
 The institution filter also provides a complete affiliation list with per-paper
 counts, making it easy to browse a topic by research organization.
 
-![Search papers and browse the affiliation list](assets/search-demo1.gif)
+![Search papers and browse the affiliation list](assets/affiliation-demo.gif)
 
 Put the PDF collection for any topic in `papers/`, run one command, and open
 `web/papers.html` in a browser to explore it.
