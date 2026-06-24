@@ -46,8 +46,7 @@ The command automatically writes `data/papers_parsed.csv`,
 
  
 
-PDF layouts vary widely, so extraction is heuristic. Review the CSV when using
-a new paper collection and correct unusual title-page layouts when necessary.
+PDF layouts vary widely, so extraction is heuristic.  
 
 ## License
 
