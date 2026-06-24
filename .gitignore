@@ -24,21 +24,9 @@ Thumbs.db
 .idea/
 *.swp
 
-# Secrets — these env files would contain OpenReview credentials.
+# Local environment files
 .env
 .env.*
-!.env.example
-
-# Pipeline artefacts that are too big or are reproducible from the scripts
-data/pdfs/                       # raw PDFs (~5 GB; download via download_missing_pdfs.py)
-data/pdfs_by_topic/
-data/iclr2026_accepted_pdf.csv   # intermediate; reproducible via build_pdf_spreadsheet.py
-data/iclr2026_accepted_pdf.xlsx
-data/iclr2026_accepted.csv       # raw OpenReview scrape; reproducible via scrape_openreview.py
-data/iclr2026_accepted.xlsx
-data/pdf_parse_summary.txt
-data/pdf_downloads.log
-data/pdf_downloads_retry.log
 
 # Logs
 *.log
