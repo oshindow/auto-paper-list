@@ -5,17 +5,12 @@ Auto Paper List turns a directory of research-paper PDFs into a searchable, stat
 affiliations, abstract, research problem, and proposed approach from the first
 page, then embeds the results in a standalone webpage for convenient browsing.
  
-Currently supports paper PDFs from **arXiv**, plus a subset of common
+- Currently supports paper PDFs from **arXiv**, plus a subset of common
 **conference and journal** PDF layouts.
 
- 
-The institution filter also provides a complete affiliation list with per-paper
-counts, making it easy to browse a topic by research organization.
-
+  
 ![Search papers and browse the affiliation list](assets/affiliation-demo.gif)
 
-Put the PDF collection for any topic in `papers/`, run one command, and open
-`web/papers.html` in a browser to explore it.
 
 ## Features
 
@@ -36,7 +31,9 @@ Requires Python 3.10 or newer.
 pip install -r requirements.txt
 ```
  
-Use your own papers:
+Put the PDF collection for any topic in `papers/`, run one command, and open
+`web/papers.html` in a browser to explore it.
+
 
 ```bash
 python3 build_papers_webpage.py \
@@ -47,7 +44,7 @@ python3 build_papers_webpage.py \
 The command automatically writes `data/papers_parsed.csv`,
 `data/papers_parsed.xlsx`, and `web/papers.html`.
 
-Then open `web/papers.html` in a browser.
+ 
 
 PDF layouts vary widely, so extraction is heuristic. Review the CSV when using
 a new paper collection and correct unusual title-page layouts when necessary.
