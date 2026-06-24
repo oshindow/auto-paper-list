@@ -1,19 +1,18 @@
 # Auto Paper List
+*Parses every PDF and generate the webpage in one step.*
 
-
+Auto Paper List turns a directory of research-paper PDFs into a searchable, static HTML page. It extracts each paper's title, authors,
+affiliations, abstract, research problem, and proposed approach from the first
+page, then embeds the results in a standalone webpage for convenient browsing.
+ 
 Currently supports paper PDFs from **arXiv**, plus a subset of common
 **conference and journal** PDF layouts.
 
-Auto Paper List turns a directory of research-paper PDFs into a searchable,
-arXiv-style static HTML page. It extracts each paper's title, authors,
-affiliations, abstract, research problem, and proposed approach from the first
-page, then embeds the results in a standalone webpage for convenient browsing. Parse every PDF and generate the webpage in one step
  
+The institution filter also provides a complete affiliation list with per-paper
+counts, making it easy to browse a topic by research organization.
 
-**Search every paper by title, author, affiliation, or abstract from a single
-search box.** Results update instantly as you type.
-
-![Search papers by title, author, affiliation, and abstract](assets/search-demo.gif)
+![Search papers and browse the affiliation list](assets/search-demo.gif)
 
 Put the PDF collection for any topic in `papers/`, run one command, and open
 `web/papers.html` in a browser to explore it.
